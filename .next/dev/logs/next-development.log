@@ -1,29 +1,6 @@
-[00:00:01.042] Server  LOG      ✓ Ready in 939ms
-[00:00:20.447] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:25.965] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:39.326] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:55.067] Server  ERROR    ⨯ Error: The default export is not a React Component in "/about-us/page"
-[00:00:55.196] Server  ERROR    ⨯ Error: The default export is not a React Component in "/about-us/page"
-[00:00:55.634] Server  ERROR    ⨯ Error: The default export is not a React Component in "/about-us/page"
-[00:00:55.740] Server  ERROR    ⨯ Error: The default export is not a React Component in "/about-us/page"
-[00:00:55.856] Server  ERROR    ⨯ Error: The default export is not a React Component in "/about-us/page"
-[00:00:55.965] Server  ERROR    ⨯ Error: The default export is not a React Component in "/about-us/page"
-[00:00:56.082] Server  ERROR    ⨯ Error: The default export is not a React Component in "/about-us/page"
-[00:00:56.192] Server  ERROR    ⨯ Error: The default export is not a React Component in "/about-us/page"
-[00:00:56.313] Server  ERROR    ⨯ Error: The default export is not a React Component in "/about-us/page"
-[00:00:56.423] Server  ERROR    ⨯ Error: The default export is not a React Component in "/about-us/page"
-[00:00:56.540] Server  ERROR    ⨯ Error: The default export is not a React Component in "/about-us/page"
-[00:00:56.646] Server  ERROR    ⨯ Error: The default export is not a React Component in "/about-us/page"
-[00:00:56.778] Server  ERROR    ⨯ Error: The default export is not a React Component in "/about-us/page"
-[00:00:56.886] Server  ERROR    ⨯ Error: The default export is not a React Component in "/about-us/page"
-[00:00:56.954] Browser ERROR   uncaughtError: Error: The default export is not a React Component in "/about-us/page"
-[00:01:39.241] Server  LOG      ✓ Compiled in 17ms
-[00:06:14.071] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:06:17.980] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:06:36.636] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:08:10.530] Server  ERROR    ⨯ Error: The default export is not a React Component in "/layout"
-[00:08:10.646] Server  ERROR    ⨯ Error: The default export is not a React Component in "/layout"
-[00:08:10.646] Server  LOG      ✓ Compiled in 142ms
-[00:08:10.711] Browser ERROR   uncaughtError: Error: The default export is not a React Component in "/layout"
-[00:08:26.616] Server  LOG      ✓ Compiled in 15ms
-[00:08:45.727] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:00.281] Server  LOG      ✓ Ready in 182ms
+[00:00:01.604] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:02.636] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:03.441] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:17.797] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:24.236] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
