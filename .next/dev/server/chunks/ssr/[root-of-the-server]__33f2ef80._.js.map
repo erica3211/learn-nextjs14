@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 10, "column": 0}, "map": {"version":3,"sources":["file:///Users/munhyejee/Documents/learn-nextjs14/app/page.tsx"],"sourcesContent":["export default function Tomato() {\n    return (<html>\n        <body>\n            <h1>Hello NextJs!</h1>;\n        </body>\n    </html>\n    )\n}"],"names":[],"mappings":";;;;;;AAAe,SAAS;IACpB,qBAAQ,gRAAC;kBACL,cAAA,gRAAC;;8BACG,gRAAC;8BAAG;;;;;;gBAAkB;;;;;;;;;;;;AAIlC"}}]
+}

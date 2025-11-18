@@ -1,0 +1,22 @@
+[00:00:01.015] Server  LOG     It looks like you're trying to use TypeScript but do not have the required package(s) installed.
+Installing dependencies
+
+If you are not trying to use TypeScript, please remove the tsconfig.json file from your package root (and any TypeScript files in your app and pages directories).
+
+[00:00:01.030] Server  LOG     
+[00:00:01.030] Server  LOG     Installing devDependencies (npm):
+[00:00:01.030] Server  LOG     - typescript
+[00:00:01.030] Server  LOG     - @types/react
+[00:00:01.030] Server  LOG     - @types/node
+[00:00:01.030] Server  LOG     
+[00:00:02.961] Server  LOG     
+[00:00:02.963] Server  LOG     
+[00:00:02.963] Server  LOG        We detected TypeScript in your project and created a tsconfig.json file for you.
+[00:00:02.998] Server  LOG      ✓ Ready in 2.9s
+[00:00:30.958] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:58.731] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:06.996] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:03:33.410] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:03:35.958] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:03:37.059] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:03:56.124] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
