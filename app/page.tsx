@@ -1,8 +1,7 @@
-export default function Tomato() {
-    return (<html>
-        <body>
-            <h1>Hello NextJs!</h1>;
-        </body>
-    </html>
+export default function Page() {
+    return (
+        <div>
+            <h1>Hello NextJs!</h1>
+        </div>
     )
 }
