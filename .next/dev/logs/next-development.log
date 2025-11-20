@@ -3,3 +3,20 @@
 [00:00:21.031] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
 [00:00:31.086] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
 [00:00:37.930] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:06:50.176] Server  ERROR    ⨯ Error: The default export is not a React Component in "/about-us/company/sales/not-found"
+[00:06:50.292] Server  ERROR    ⨯ Error: The default export is not a React Component in "/about-us/company/sales/not-found"
+[00:06:50.294] Server  LOG      ✓ Compiled in 147ms
+[00:06:50.742] Server  ERROR    ⨯ Error: The default export is not a React Component in "/about-us/company/sales/not-found"
+[00:06:50.845] Server  ERROR    ⨯ Error: The default export is not a React Component in "/about-us/company/sales/not-found"
+[00:06:50.958] Server  ERROR    ⨯ Error: The default export is not a React Component in "/about-us/company/sales/not-found"
+[00:06:51.066] Server  ERROR    ⨯ Error: The default export is not a React Component in "/about-us/company/sales/not-found"
+[00:06:51.187] Server  ERROR    ⨯ Error: The default export is not a React Component in "/about-us/company/sales/not-found"
+[00:06:51.295] Server  ERROR    ⨯ Error: The default export is not a React Component in "/about-us/company/sales/not-found"
+[00:06:51.428] Server  ERROR    ⨯ Error: The default export is not a React Component in "/about-us/company/sales/not-found"
+[00:06:51.536] Server  ERROR    ⨯ Error: The default export is not a React Component in "/about-us/company/sales/not-found"
+[00:06:51.609] Browser ERROR   uncaughtError: Error: The default export is not a React Component in "/about-us/company/sales/not-found"
+[00:07:34.674] Server  LOG      ✓ Compiled in 12ms
+[00:07:48.524] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:12:10.555] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:14:37.117] Server  LOG      ✓ Compiled in 16ms
+[00:16:34.857] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
