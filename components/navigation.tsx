@@ -1,6 +1,7 @@
 "use client"
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { useState } from "react";
 /*
 렌더링이란?
 Next.js가 리액트 컴포넌트를 브라우저가 이해할 수 있는 html로 변환하는 작업
@@ -26,10 +27,11 @@ SSR
 Next.js에서 모든 컴포넌트와 페이지들은 먼저 서버에서 렌더됨
 ('use client' 사용 여부와 상관없음)
 */
-export default function Navigation(){
+export default function Navigation() {
     const path = usePathname();
+    const [count, setCount] = useState(0);
     console.log(path);
-    return(
+    return (
         <nav>
             <ul>
                 <li>
@@ -38,6 +40,7 @@ export default function Navigation(){
                 <li>
                     <Link href="/about-us">About us</Link>{path === "/about-us" ? " ✅" : ""}
                 </li>
+                <li><button onClick={() => setCount((c) => c + 1)}>{count}</button></li>
             </ul>
         </nav>
     )
