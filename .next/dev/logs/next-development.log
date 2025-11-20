@@ -54,3 +54,115 @@
 [00:33:57.025] Server  LOG      ✓ Compiled in 7ms
 [00:33:57.681] Browser LOG     /about-us
 [00:33:57.682] Browser LOG     /about-us
+[00:50:23.683] Browser LOG     /about-us
+[00:50:23.683] Browser LOG     /about-us
+[00:51:48.199] Server  LOG     /about-us
+[00:51:48.203] Server  LOG     /about-us
+[00:51:48.268] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:51:48.683] Browser LOG     /about-us
+[00:51:48.683] Browser LOG     /about-us
+[00:51:48.683] Browser LOG     /about-us
+[00:51:48.683] Browser LOG     /about-us
+[00:52:06.491] Server  LOG      ✓ Compiled in 7ms
+[00:52:06.682] Browser LOG     /about-us
+[00:52:06.682] Browser LOG     /about-us
+[00:52:06.682] Browser LOG     /about-us
+[00:52:06.682] Browser LOG     /about-us
+[00:52:14.629] Server  LOG      ✓ Compiled in 8ms
+[00:52:14.739] Browser LOG     /about-us
+[00:52:14.739] Browser LOG     /about-us
+[00:52:14.739] Browser LOG     /about-us
+[00:52:14.739] Browser LOG     /about-us
+[00:52:19.483] Browser LOG     /about-us
+[00:52:19.483] Browser LOG     /about-us
+[00:52:21.600] Browser LOG     /
+[00:52:21.600] Browser LOG     /
+[00:52:22.174] Browser LOG     /about-us
+[00:52:22.174] Browser LOG     /about-us
+[00:52:22.678] Browser LOG     /
+[00:52:22.678] Browser LOG     /
+[00:52:23.141] Browser LOG     /about-us
+[00:52:23.141] Browser LOG     /about-us
+[00:52:23.598] Browser LOG     /
+[00:52:23.598] Browser LOG     /
+[00:52:24.045] Browser LOG     /about-us
+[00:52:24.045] Browser LOG     /about-us
+[00:52:24.678] Browser LOG     /
+[00:52:24.678] Browser LOG     /
+[00:52:25.103] Browser LOG     /about-us
+[00:52:25.103] Browser LOG     /about-us
+[00:52:33.876] Browser LOG     /
+[00:52:33.876] Browser LOG     /
+[00:52:35.023] Browser LOG     /about-us
+[00:52:35.024] Browser LOG     /about-us
+[00:52:36.547] Browser LOG     /
+[00:52:36.547] Browser LOG     /
+[00:52:37.463] Browser LOG     /about-us
+[00:52:37.463] Browser LOG     /about-us
+[00:52:38.411] Browser LOG     /
+[00:52:38.411] Browser LOG     /
+[00:52:39.174] Browser LOG     /about-us
+[00:52:39.174] Browser LOG     /about-us
+[00:52:57.554] Server  LOG      ✓ Compiled in 3ms
+[00:52:57.681] Browser LOG     /about-us
+[00:52:57.681] Browser LOG     /about-us
+[00:52:59.668] Browser LOG     /
+[00:52:59.668] Browser LOG     /
+[00:53:00.363] Browser LOG     /about-us
+[00:53:00.363] Browser LOG     /about-us
+[00:53:00.852] Browser LOG     /
+[00:53:00.852] Browser LOG     /
+[00:53:01.327] Browser LOG     /about-us
+[00:53:01.328] Browser LOG     /about-us
+[00:53:02.110] Browser LOG     /
+[00:53:02.110] Browser LOG     /
+[00:53:02.731] Browser LOG     /about-us
+[00:53:02.731] Browser LOG     /about-us
+[00:53:03.368] Browser LOG     /
+[00:53:03.368] Browser LOG     /
+[00:53:03.838] Browser LOG     /about-us
+[00:53:03.838] Browser LOG     /about-us
+[00:53:04.491] Browser LOG     /
+[00:53:04.491] Browser LOG     /
+[00:53:10.266] Server  LOG      ✓ Compiled in 7ms
+[00:53:10.340] Browser LOG     /
+[00:53:10.340] Browser LOG     /
+[00:53:12.200] Browser LOG     /about-us
+[00:53:12.201] Browser LOG     /about-us
+[00:53:12.699] Browser LOG     /
+[00:53:12.699] Browser LOG     /
+[00:53:13.054] Browser LOG     /about-us
+[00:53:13.054] Browser LOG     /about-us
+[00:53:14.188] Browser LOG     /
+[00:53:14.188] Browser LOG     /
+[00:53:14.710] Browser LOG     /about-us
+[00:53:14.710] Browser LOG     /about-us
+[00:53:21.031] Server  LOG      ✓ Compiled in 2ms
+[00:53:21.106] Browser LOG     /about-us
+[00:53:21.106] Browser LOG     /about-us
+[00:56:15.559] Server  ERROR    ⨯ Error: The default export is not a React Component in "/about-us/layout"
+[00:56:15.681] Server  ERROR    ⨯ Error: The default export is not a React Component in "/about-us/layout"
+[00:56:16.145] Server  ERROR    ⨯ Error: The default export is not a React Component in "/about-us/layout"
+[00:56:16.253] Server  ERROR    ⨯ Error: The default export is not a React Component in "/about-us/layout"
+[00:56:16.326] Browser ERROR   uncaughtError: Error: The default export is not a React Component in "/about-us/layout"
+[00:57:18.197] Server  LOG      ✓ Compiled in 7ms
+[00:59:53.639] Server  LOG     /about-us
+[00:59:53.736] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:59:54.682] Browser LOG     /about-us
+[00:59:54.682] Browser LOG     /about-us
+[01:00:45.109] Server  LOG     /about-us/company
+[01:00:45.179] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:00:45.179] Browser LOG     /about-us/company
+[01:00:45.179] Browser LOG     /about-us/company
+[01:00:52.931] Server  LOG     /about-us/company/sales
+[01:00:52.996] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:00:52.996] Browser LOG     /about-us/company/sales
+[01:00:52.996] Browser LOG     /about-us/company/sales
+[01:02:29.687] Browser LOG     /about-us/company/sales
+[01:02:29.687] Browser LOG     /about-us/company/sales
+[01:02:31.466] Server  LOG     /about-us/company/sales
+[01:02:31.550] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:02:31.550] Browser LOG     /about-us/company/sales
+[01:02:31.550] Browser LOG     /about-us/company/sales
+[01:02:33.148] Browser LOG     /about-us
+[01:02:33.148] Browser LOG     /about-us

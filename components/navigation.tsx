@@ -41,7 +41,7 @@ export default function Navigation() {
                 <li>
                     <Link href="/about-us">About us</Link>{path === "/about-us" ? " ✅" : ""}
                 </li>
-                <li><button onClick={() => setCount((c) => c + 1)}>{count}</button></li>
+                {/* <li><button onClick={() => setCount((c) => c + 1)}>{count}</button></li> */}
             </ul>
         </nav>
     )
