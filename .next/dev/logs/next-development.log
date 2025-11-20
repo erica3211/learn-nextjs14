@@ -1,22 +1,195 @@
-[00:00:00.683] Server  LOG      ✓ Ready in 484ms
-[00:00:11.270] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:21.031] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:31.086] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:37.930] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:06:50.176] Server  ERROR    ⨯ Error: The default export is not a React Component in "/about-us/company/sales/not-found"
-[00:06:50.292] Server  ERROR    ⨯ Error: The default export is not a React Component in "/about-us/company/sales/not-found"
-[00:06:50.294] Server  LOG      ✓ Compiled in 147ms
-[00:06:50.742] Server  ERROR    ⨯ Error: The default export is not a React Component in "/about-us/company/sales/not-found"
-[00:06:50.845] Server  ERROR    ⨯ Error: The default export is not a React Component in "/about-us/company/sales/not-found"
-[00:06:50.958] Server  ERROR    ⨯ Error: The default export is not a React Component in "/about-us/company/sales/not-found"
-[00:06:51.066] Server  ERROR    ⨯ Error: The default export is not a React Component in "/about-us/company/sales/not-found"
-[00:06:51.187] Server  ERROR    ⨯ Error: The default export is not a React Component in "/about-us/company/sales/not-found"
-[00:06:51.295] Server  ERROR    ⨯ Error: The default export is not a React Component in "/about-us/company/sales/not-found"
-[00:06:51.428] Server  ERROR    ⨯ Error: The default export is not a React Component in "/about-us/company/sales/not-found"
-[00:06:51.536] Server  ERROR    ⨯ Error: The default export is not a React Component in "/about-us/company/sales/not-found"
-[00:06:51.609] Browser ERROR   uncaughtError: Error: The default export is not a React Component in "/about-us/company/sales/not-found"
-[00:07:34.674] Server  LOG      ✓ Compiled in 12ms
-[00:07:48.524] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:12:10.555] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:14:37.117] Server  LOG      ✓ Compiled in 16ms
-[00:16:34.857] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:00.297] Server  LOG      ✓ Ready in 198ms
+[00:00:00.975] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:03.088] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:11.266] Browser ERROR   ./Documents/learn-nextjs14/components/navigation.tsx:2:10
+Ecmascript file had an error
+  1 | import Link from "next/link";
+> 2 | import { usePathname } from "next/navigation";
+    |          ^^^^^^^^^^^
+  3 |
+  4 | export default function Navigation(){
+  5 |     const path = usePathname();
+
+You're importing a component that needs `usePathname`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import trace:
+  Server Component:
+    ./Documents/learn-nextjs14/components/navigation.tsx
+    ./Documents/learn-nextjs14/app/about-us/page.tsx
+[00:01:52.267] Browser LOG     /about-us
+[00:01:52.267] Browser LOG     /about-us
+[00:01:54.481] Browser LOG     /
+[00:01:54.481] Browser LOG     /
+[00:01:54.802] Browser LOG     /about-us
+[00:01:54.803] Browser LOG     /about-us
+[00:01:55.417] Browser LOG     /
+[00:01:55.417] Browser LOG     /
+[00:01:55.687] Browser LOG     /about-us
+[00:01:55.687] Browser LOG     /about-us
+[00:02:57.532] Server  LOG      ✓ Compiled in 11ms
+[00:02:58.267] Browser ERROR   ./Documents/learn-nextjs14/components/navigation.tsx:12:67
+Parsing ecmascript source code failed
+  10 |             <ul>
+  11 |                 <li>
+> 12 |                     <Link href="/">Home</Link>{path === "/" ? ✅ : ""}
+     |                                                                   ^
+  13 |                 </li>
+  14 |                 <li>
+  15 |                     <Link href="/about-us">About us</Link>
+
+Expected '</', got ':'
+
+Import trace:
+  Server Component:
+    ./Documents/learn-nextjs14/components/navigation.tsx
+    ./Documents/learn-nextjs14/app/about-us/page.tsx
+[00:02:59.920] Server  ERROR    ⨯ ./Documents/learn-nextjs14/components/navigation.tsx:12:67
+Parsing ecmascript source code failed
+  10 |             <ul>
+  11 |                 <li>
+> 12 |                     <Link href="/">Home</Link>{path === "/" ? ✅ : ""}
+     |                                                                   ^
+  13 |                 </li>
+  14 |                 <li>
+  15 |                     <Link href="/about-us">About us</Link>
+
+Expected '</', got ':'
+
+Import trace:
+  Server Component:
+    ./Documents/learn-nextjs14/components/navigation.tsx
+    ./Documents/learn-nextjs14/app/about-us/page.tsx
+
+
+[00:03:00.042] Browser ERROR   ./Documents/learn-nextjs14/components/navigation.tsx:12:67
+Parsing ecmascript source code failed
+  10 |             <ul>
+  11 |                 <li>
+> 12 |                     <Link href="/">Home</Link>{path === "/" ? ✅ : ""}
+     |                                                                   ^
+  13 |                 </li>
+  14 |                 <li>
+  15 |                     <Link href="/about-us">About us</Link>
+
+Expected '</', got ':'
+
+Import trace:
+  Server Component:
+    ./Documents/learn-nextjs14/components/navigation.tsx
+    ./Documents/learn-nextjs14/app/about-us/page.tsx
+[00:03:00.270] Browser ERROR   ./Documents/learn-nextjs14/components/navigation.tsx:12:67
+Parsing ecmascript source code failed
+  10 |             <ul>
+  11 |                 <li>
+> 12 |                     <Link href="/">Home</Link>{path === "/" ? ✅ : ""}
+     |                                                                   ^
+  13 |                 </li>
+  14 |                 <li>
+  15 |                     <Link href="/about-us">About us</Link>
+
+Expected '</', got ':'
+
+Import trace:
+  Server Component:
+    ./Documents/learn-nextjs14/components/navigation.tsx
+    ./Documents/learn-nextjs14/app/about-us/page.tsx
+[00:03:00.339] Browser ERROR   uncaughtError: Error: ./Documents/learn-nextjs14/components/navigation.tsx:12:67
+Parsing ecmascript source code failed
+  10 |             <ul>
+  11 |                 <li>
+> 12 |                     <Link href="/">Home</Link>{path === "/" ? ✅ : ""}
+     |                                                                   ^
+  13 |                 </li>
+  14 |                 <li>
+  15 |                     <Link href="/about-us">About us</Link>
+
+Expected '</', got ':'
+
+Import trace:
+  Server Component:
+    ./Documents/learn-nextjs14/components/navigation.tsx
+    ./Documents/learn-nextjs14/app/about-us/page.tsx
+
+
+[00:03:00.482] Browser ERROR   ./Documents/learn-nextjs14/components/navigation.tsx:12:67
+Parsing ecmascript source code failed
+  10 |             <ul>
+  11 |                 <li>
+> 12 |                     <Link href="/">Home</Link>{path === "/" ? ✅ : ""}
+     |                                                                   ^
+  13 |                 </li>
+  14 |                 <li>
+  15 |                     <Link href="/about-us">About us</Link>
+
+Expected '</', got ':'
+
+Import trace:
+  Server Component:
+    ./Documents/learn-nextjs14/components/navigation.tsx
+    ./Documents/learn-nextjs14/app/about-us/page.tsx
+[00:03:00.482] Browser ERROR   ./Documents/learn-nextjs14/components/navigation.tsx:12:67
+Parsing ecmascript source code failed
+  10 |             <ul>
+  11 |                 <li>
+> 12 |                     <Link href="/">Home</Link>{path === "/" ? ✅ : ""}
+     |                                                                   ^
+  13 |                 </li>
+  14 |                 <li>
+  15 |                     <Link href="/about-us">About us</Link>
+
+Expected '</', got ':'
+
+Import trace:
+  Server Component:
+    ./Documents/learn-nextjs14/components/navigation.tsx
+    ./Documents/learn-nextjs14/app/page.tsx
+[00:03:00.482] Browser ERROR   ./Documents/learn-nextjs14/components/navigation.tsx:12:67
+Parsing ecmascript source code failed
+  10 |             <ul>
+  11 |                 <li>
+> 12 |                     <Link href="/">Home</Link>{path === "/" ? ✅ : ""}
+     |                                                                   ^
+  13 |                 </li>
+  14 |                 <li>
+  15 |                     <Link href="/about-us">About us</Link>
+
+Expected '</', got ':'
+
+Import trace:
+  Server Component:
+    ./Documents/learn-nextjs14/components/navigation.tsx
+    ./Documents/learn-nextjs14/app/about-us/page.tsx
+[00:03:13.067] Server  LOG     /about-us
+[00:03:13.137] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:03:13.265] Browser LOG     /about-us
+[00:03:13.265] Browser LOG     /about-us
+[00:03:15.311] Browser LOG     /
+[00:03:15.311] Browser LOG     /
+[00:03:16.070] Browser LOG     /about-us
+[00:03:16.070] Browser LOG     /about-us
+[00:03:16.792] Browser LOG     /
+[00:03:16.792] Browser LOG     /
+[00:03:17.573] Browser LOG     /about-us
+[00:03:17.573] Browser LOG     /about-us
+[00:03:43.216] Server  LOG      ✓ Compiled in 3ms
+[00:03:44.190] Browser LOG     /about-us
+[00:03:44.190] Browser LOG     /about-us
+[00:03:45.252] Browser LOG     /
+[00:03:45.252] Browser LOG     /
+[00:03:45.872] Browser LOG     /about-us
+[00:03:45.872] Browser LOG     /about-us
+[00:03:46.308] Browser LOG     /
+[00:03:46.308] Browser LOG     /
+[00:03:50.828] Server  LOG      ✓ Compiled in 5ms
+[00:03:50.904] Browser LOG     /
+[00:03:50.904] Browser LOG     /
+[00:03:52.329] Browser LOG     /
+[00:03:52.329] Browser LOG     /
+[00:03:52.793] Browser LOG     /about-us
+[00:03:52.793] Browser LOG     /about-us
+[00:03:53.440] Browser LOG     /
+[00:03:53.440] Browser LOG     /
+[00:03:53.895] Browser LOG     /about-us
+[00:03:53.895] Browser LOG     /about-us
