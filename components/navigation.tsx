@@ -27,6 +27,7 @@ SSR
 Next.js에서 모든 컴포넌트와 페이지들은 먼저 서버에서 렌더됨
 ('use client' 사용 여부와 상관없음)
 */
+
 export default function Navigation() {
     const path = usePathname();
     const [count, setCount] = useState(0);
