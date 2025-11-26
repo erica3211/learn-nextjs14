@@ -631,3 +631,763 @@ You're importing a component that needs `useState`. This React Hook only works i
 [00:13:03.844] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
 [00:13:03.951] Browser LOG     /
 [00:13:03.951] Browser LOG     /
+[00:19:56.345] Server  LOG      ✓ Compiled in 9ms
+[00:19:56.767] Browser ERROR   ./Documents/learn-nextjs14/app/(home)/page.tsx:16:38
+Parsing ecmascript source code failed
+  14 |     const [movies, setMovies] = useState([]);
+  15 |     const getMovies = async () => {
+> 16 |         const response = await fetch(");
+     |                                      ^^^
+  17 |         const json = await response.json();
+  18 |         setMovies(json);
+  19 |         setIsLoading(false);
+
+Unterminated string constant
+
+Import traces:
+  Client Component Browser:
+    ./Documents/learn-nextjs14/app/(home)/page.tsx [Client Component Browser]
+    ./Documents/learn-nextjs14/app/(home)/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/learn-nextjs14/app/(home)/page.tsx [Client Component SSR]
+    ./Documents/learn-nextjs14/app/(home)/page.tsx [Server Component]
+[00:20:37.765] Browser ERROR   uncaughtError: ReferenceError: movies is not defined
+[00:20:51.666] Server  LOG      ✓ Compiled in 9ms
+[00:20:52.765] Browser ERROR   ./Documents/learn-nextjs14/app/(home)/page.tsx:5:14
+Ecmascript file had an error
+  3 |
+  4 | // metadata 는 합쳐짐 (merge)
+> 5 | export const metadata = {
+    |              ^^^^^^^^
+  6 |     title: "Home",
+  7 |     description: "The best movies on the best framework"
+  8 | };
+
+You are attempting to export "metadata" from a component marked with "use client", which is disallowed. Either remove the export, or the "use client" directive. Read more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import traces:
+  Client Component Browser:
+    ./Documents/learn-nextjs14/app/(home)/page.tsx [Client Component Browser]
+    ./Documents/learn-nextjs14/app/(home)/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/learn-nextjs14/app/(home)/page.tsx [Client Component SSR]
+    ./Documents/learn-nextjs14/app/(home)/page.tsx [Server Component]
+[00:20:59.585] Server  LOG      ✓ Compiled in 3ms
+[00:20:59.766] Browser ERROR   ./Documents/learn-nextjs14/app/(home)/page.tsx:5:14
+Ecmascript file had an error
+  3 |
+  4 | // metadata 는 합쳐짐 (merge)
+> 5 | export const metadata = {
+    |              ^^^^^^^^
+  6 |     title: "Home",
+  7 | };
+  8 |
+
+You are attempting to export "metadata" from a component marked with "use client", which is disallowed. Either remove the export, or the "use client" directive. Read more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import traces:
+  Client Component Browser:
+    ./Documents/learn-nextjs14/app/(home)/page.tsx [Client Component Browser]
+    ./Documents/learn-nextjs14/app/(home)/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/learn-nextjs14/app/(home)/page.tsx [Client Component SSR]
+    ./Documents/learn-nextjs14/app/(home)/page.tsx [Server Component]
+[00:22:18.638] Server  LOG      ✓ Compiled in 6ms
+[00:22:18.766] Browser ERROR   ./Documents/learn-nextjs14/app/(home)/page.tsx:5:14
+Ecmascript file had an error
+  3 |
+  4 | // metadata 는 합쳐짐 (merge)
+> 5 | export const metadata = {
+    |              ^^^^^^^^
+  6 |     title: "Home",
+  7 | };
+  8 |
+
+You are attempting to export "metadata" from a component marked with "use client", which is disallowed. Either remove the export, or the "use client" directive. Read more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import traces:
+  Client Component Browser:
+    ./Documents/learn-nextjs14/app/(home)/page.tsx [Client Component Browser]
+    ./Documents/learn-nextjs14/app/(home)/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/learn-nextjs14/app/(home)/page.tsx [Client Component SSR]
+    ./Documents/learn-nextjs14/app/(home)/page.tsx [Server Component]
+[00:22:41.789] Server  LOG      ✓ Compiled in 3ms
+[00:22:42.766] Browser ERROR   ./Documents/learn-nextjs14/app/(home)/page.tsx:5:14
+Ecmascript file had an error
+  3 |
+  4 | // metadata 는 합쳐짐 (merge)
+> 5 | export const metadata = {
+    |              ^^^^^^^^
+  6 |     title: "Home",
+  7 | };
+  8 |
+
+You are attempting to export "metadata" from a component marked with "use client", which is disallowed. Either remove the export, or the "use client" directive. Read more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import traces:
+  Client Component Browser:
+    ./Documents/learn-nextjs14/app/(home)/page.tsx [Client Component Browser]
+    ./Documents/learn-nextjs14/app/(home)/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/learn-nextjs14/app/(home)/page.tsx [Client Component SSR]
+    ./Documents/learn-nextjs14/app/(home)/page.tsx [Server Component]
+[00:23:46.981] Server  ERROR    ⨯ ./Documents/learn-nextjs14/app/(home)/page.tsx:5:14
+Ecmascript file had an error
+  3 |
+  4 | // metadata 는 합쳐짐 (merge)
+> 5 | export const metadata = {
+    |              ^^^^^^^^
+  6 |     title: "Home",
+  7 | };
+  8 |
+
+You are attempting to export "metadata" from a component marked with "use client", which is disallowed. Either remove the export, or the "use client" directive. Read more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Documents/learn-nextjs14/app/(home)/page.tsx [Client Component Browser]
+    ./Documents/learn-nextjs14/app/(home)/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/learn-nextjs14/app/(home)/page.tsx [Client Component SSR]
+    ./Documents/learn-nextjs14/app/(home)/page.tsx [Server Component]
+
+
+[00:23:47.115] Browser ERROR   uncaughtError: Error: ./Documents/learn-nextjs14/app/(home)/page.tsx:5:14
+Ecmascript file had an error
+  3 |
+  4 | // metadata 는 합쳐짐 (merge)
+> 5 | export const metadata = {
+    |              ^^^^^^^^
+  6 |     title: "Home",
+  7 | };
+  8 |
+
+You are attempting to export "metadata" from a component marked with "use client", which is disallowed. Either remove the export, or the "use client" directive. Read more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Documents/learn-nextjs14/app/(home)/page.tsx [Client Component Browser]
+    ./Documents/learn-nextjs14/app/(home)/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/learn-nextjs14/app/(home)/page.tsx [Client Component SSR]
+    ./Documents/learn-nextjs14/app/(home)/page.tsx [Server Component]
+
+
+[00:23:47.256] Browser ERROR   ./Documents/learn-nextjs14/app/(home)/page.tsx:5:14
+Ecmascript file had an error
+  3 |
+  4 | // metadata 는 합쳐짐 (merge)
+> 5 | export const metadata = {
+    |              ^^^^^^^^
+  6 |     title: "Home",
+  7 | };
+  8 |
+
+You are attempting to export "metadata" from a component marked with "use client", which is disallowed. Either remove the export, or the "use client" directive. Read more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import traces:
+  Client Component Browser:
+    ./Documents/learn-nextjs14/app/(home)/page.tsx [Client Component Browser]
+    ./Documents/learn-nextjs14/app/(home)/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/learn-nextjs14/app/(home)/page.tsx [Client Component SSR]
+    ./Documents/learn-nextjs14/app/(home)/page.tsx [Server Component]
+[00:23:47.256] Browser ERROR   ./Documents/learn-nextjs14/app/(home)/page.tsx:5:14
+Ecmascript file had an error
+  3 |
+  4 | // metadata 는 합쳐짐 (merge)
+> 5 | export const metadata = {
+    |              ^^^^^^^^
+  6 |     title: "Home",
+  7 | };
+  8 |
+
+You are attempting to export "metadata" from a component marked with "use client", which is disallowed. Either remove the export, or the "use client" directive. Read more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import traces:
+  Client Component Browser:
+    ./Documents/learn-nextjs14/app/(home)/page.tsx [Client Component Browser]
+    ./Documents/learn-nextjs14/app/(home)/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/learn-nextjs14/app/(home)/page.tsx [Client Component SSR]
+    ./Documents/learn-nextjs14/app/(home)/page.tsx [Server Component]
+[00:23:48.737] Browser ERROR   ./Documents/learn-nextjs14/app/(home)/page.tsx:5:14
+Ecmascript file had an error
+  3 |
+  4 | // metadata 는 합쳐짐 (merge)
+> 5 | export const metadata = {
+    |              ^^^^^^^^
+  6 |     title: "Home",
+  7 | };
+  8 |
+
+You are attempting to export "metadata" from a component marked with "use client", which is disallowed. Either remove the export, or the "use client" directive. Read more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import traces:
+  Client Component Browser:
+    ./Documents/learn-nextjs14/app/(home)/page.tsx [Client Component Browser]
+    ./Documents/learn-nextjs14/app/(home)/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/learn-nextjs14/app/(home)/page.tsx [Client Component SSR]
+    ./Documents/learn-nextjs14/app/(home)/page.tsx [Server Component]
+[00:23:50.860] Browser ERROR   ./Documents/learn-nextjs14/app/(home)/page.tsx:5:14
+Ecmascript file had an error
+  3 |
+  4 | // metadata 는 합쳐짐 (merge)
+> 5 | export const metadata = {
+    |              ^^^^^^^^
+  6 |     title: "Home",
+  7 | };
+  8 |
+
+You are attempting to export "metadata" from a component marked with "use client", which is disallowed. Either remove the export, or the "use client" directive. Read more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import traces:
+  Client Component Browser:
+    ./Documents/learn-nextjs14/app/(home)/page.tsx [Client Component Browser]
+    ./Documents/learn-nextjs14/app/(home)/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/learn-nextjs14/app/(home)/page.tsx [Client Component SSR]
+    ./Documents/learn-nextjs14/app/(home)/page.tsx [Server Component]
+[00:23:52.546] Server  ERROR    ⨯ ./Documents/learn-nextjs14/app/(home)/page.tsx:5:14
+Ecmascript file had an error
+  3 |
+  4 | // metadata 는 합쳐짐 (merge)
+> 5 | export const metadata = {
+    |              ^^^^^^^^
+  6 |     title: "Home",
+  7 | };
+  8 |
+
+You are attempting to export "metadata" from a component marked with "use client", which is disallowed. Either remove the export, or the "use client" directive. Read more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Documents/learn-nextjs14/app/(home)/page.tsx [Client Component Browser]
+    ./Documents/learn-nextjs14/app/(home)/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/learn-nextjs14/app/(home)/page.tsx [Client Component SSR]
+    ./Documents/learn-nextjs14/app/(home)/page.tsx [Server Component]
+
+
+[00:23:52.670] Browser ERROR   uncaughtError: Error: ./Documents/learn-nextjs14/app/(home)/page.tsx:5:14
+Ecmascript file had an error
+  3 |
+  4 | // metadata 는 합쳐짐 (merge)
+> 5 | export const metadata = {
+    |              ^^^^^^^^
+  6 |     title: "Home",
+  7 | };
+  8 |
+
+You are attempting to export "metadata" from a component marked with "use client", which is disallowed. Either remove the export, or the "use client" directive. Read more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Documents/learn-nextjs14/app/(home)/page.tsx [Client Component Browser]
+    ./Documents/learn-nextjs14/app/(home)/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/learn-nextjs14/app/(home)/page.tsx [Client Component SSR]
+    ./Documents/learn-nextjs14/app/(home)/page.tsx [Server Component]
+
+
+[00:23:52.814] Browser ERROR   ./Documents/learn-nextjs14/app/(home)/page.tsx:5:14
+Ecmascript file had an error
+  3 |
+  4 | // metadata 는 합쳐짐 (merge)
+> 5 | export const metadata = {
+    |              ^^^^^^^^
+  6 |     title: "Home",
+  7 | };
+  8 |
+
+You are attempting to export "metadata" from a component marked with "use client", which is disallowed. Either remove the export, or the "use client" directive. Read more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import traces:
+  Client Component Browser:
+    ./Documents/learn-nextjs14/app/(home)/page.tsx [Client Component Browser]
+    ./Documents/learn-nextjs14/app/(home)/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/learn-nextjs14/app/(home)/page.tsx [Client Component SSR]
+    ./Documents/learn-nextjs14/app/(home)/page.tsx [Server Component]
+[00:23:52.814] Browser ERROR   ./Documents/learn-nextjs14/app/(home)/page.tsx:5:14
+Ecmascript file had an error
+  3 |
+  4 | // metadata 는 합쳐짐 (merge)
+> 5 | export const metadata = {
+    |              ^^^^^^^^
+  6 |     title: "Home",
+  7 | };
+  8 |
+
+You are attempting to export "metadata" from a component marked with "use client", which is disallowed. Either remove the export, or the "use client" directive. Read more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import traces:
+  Client Component Browser:
+    ./Documents/learn-nextjs14/app/(home)/page.tsx [Client Component Browser]
+    ./Documents/learn-nextjs14/app/(home)/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/learn-nextjs14/app/(home)/page.tsx [Client Component SSR]
+    ./Documents/learn-nextjs14/app/(home)/page.tsx [Server Component]
+[00:23:53.157] Server  ERROR    ⨯ ./Documents/learn-nextjs14/app/(home)/page.tsx:5:14
+Ecmascript file had an error
+  3 |
+  4 | // metadata 는 합쳐짐 (merge)
+> 5 | export const metadata = {
+    |              ^^^^^^^^
+  6 |     title: "Home",
+  7 | };
+  8 |
+
+You are attempting to export "metadata" from a component marked with "use client", which is disallowed. Either remove the export, or the "use client" directive. Read more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Documents/learn-nextjs14/app/(home)/page.tsx [Client Component Browser]
+    ./Documents/learn-nextjs14/app/(home)/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/learn-nextjs14/app/(home)/page.tsx [Client Component SSR]
+    ./Documents/learn-nextjs14/app/(home)/page.tsx [Server Component]
+
+
+[00:23:53.274] Browser ERROR   uncaughtError: Error: ./Documents/learn-nextjs14/app/(home)/page.tsx:5:14
+Ecmascript file had an error
+  3 |
+  4 | // metadata 는 합쳐짐 (merge)
+> 5 | export const metadata = {
+    |              ^^^^^^^^
+  6 |     title: "Home",
+  7 | };
+  8 |
+
+You are attempting to export "metadata" from a component marked with "use client", which is disallowed. Either remove the export, or the "use client" directive. Read more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Documents/learn-nextjs14/app/(home)/page.tsx [Client Component Browser]
+    ./Documents/learn-nextjs14/app/(home)/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/learn-nextjs14/app/(home)/page.tsx [Client Component SSR]
+    ./Documents/learn-nextjs14/app/(home)/page.tsx [Server Component]
+
+
+[00:23:53.415] Browser ERROR   ./Documents/learn-nextjs14/app/(home)/page.tsx:5:14
+Ecmascript file had an error
+  3 |
+  4 | // metadata 는 합쳐짐 (merge)
+> 5 | export const metadata = {
+    |              ^^^^^^^^
+  6 |     title: "Home",
+  7 | };
+  8 |
+
+You are attempting to export "metadata" from a component marked with "use client", which is disallowed. Either remove the export, or the "use client" directive. Read more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import traces:
+  Client Component Browser:
+    ./Documents/learn-nextjs14/app/(home)/page.tsx [Client Component Browser]
+    ./Documents/learn-nextjs14/app/(home)/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/learn-nextjs14/app/(home)/page.tsx [Client Component SSR]
+    ./Documents/learn-nextjs14/app/(home)/page.tsx [Server Component]
+[00:23:53.415] Browser ERROR   ./Documents/learn-nextjs14/app/(home)/page.tsx:5:14
+Ecmascript file had an error
+  3 |
+  4 | // metadata 는 합쳐짐 (merge)
+> 5 | export const metadata = {
+    |              ^^^^^^^^
+  6 |     title: "Home",
+  7 | };
+  8 |
+
+You are attempting to export "metadata" from a component marked with "use client", which is disallowed. Either remove the export, or the "use client" directive. Read more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import traces:
+  Client Component Browser:
+    ./Documents/learn-nextjs14/app/(home)/page.tsx [Client Component Browser]
+    ./Documents/learn-nextjs14/app/(home)/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/learn-nextjs14/app/(home)/page.tsx [Client Component SSR]
+    ./Documents/learn-nextjs14/app/(home)/page.tsx [Server Component]
+[00:23:53.617] Server  ERROR    ⨯ ./Documents/learn-nextjs14/app/(home)/page.tsx:5:14
+Ecmascript file had an error
+  3 |
+  4 | // metadata 는 합쳐짐 (merge)
+> 5 | export const metadata = {
+    |              ^^^^^^^^
+  6 |     title: "Home",
+  7 | };
+  8 |
+
+You are attempting to export "metadata" from a component marked with "use client", which is disallowed. Either remove the export, or the "use client" directive. Read more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Documents/learn-nextjs14/app/(home)/page.tsx [Client Component Browser]
+    ./Documents/learn-nextjs14/app/(home)/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/learn-nextjs14/app/(home)/page.tsx [Client Component SSR]
+    ./Documents/learn-nextjs14/app/(home)/page.tsx [Server Component]
+
+
+[00:23:53.736] Browser ERROR   uncaughtError: Error: ./Documents/learn-nextjs14/app/(home)/page.tsx:5:14
+Ecmascript file had an error
+  3 |
+  4 | // metadata 는 합쳐짐 (merge)
+> 5 | export const metadata = {
+    |              ^^^^^^^^
+  6 |     title: "Home",
+  7 | };
+  8 |
+
+You are attempting to export "metadata" from a component marked with "use client", which is disallowed. Either remove the export, or the "use client" directive. Read more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Documents/learn-nextjs14/app/(home)/page.tsx [Client Component Browser]
+    ./Documents/learn-nextjs14/app/(home)/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/learn-nextjs14/app/(home)/page.tsx [Client Component SSR]
+    ./Documents/learn-nextjs14/app/(home)/page.tsx [Server Component]
+
+
+[00:23:53.877] Browser ERROR   ./Documents/learn-nextjs14/app/(home)/page.tsx:5:14
+Ecmascript file had an error
+  3 |
+  4 | // metadata 는 합쳐짐 (merge)
+> 5 | export const metadata = {
+    |              ^^^^^^^^
+  6 |     title: "Home",
+  7 | };
+  8 |
+
+You are attempting to export "metadata" from a component marked with "use client", which is disallowed. Either remove the export, or the "use client" directive. Read more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import traces:
+  Client Component Browser:
+    ./Documents/learn-nextjs14/app/(home)/page.tsx [Client Component Browser]
+    ./Documents/learn-nextjs14/app/(home)/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/learn-nextjs14/app/(home)/page.tsx [Client Component SSR]
+    ./Documents/learn-nextjs14/app/(home)/page.tsx [Server Component]
+[00:23:53.877] Browser ERROR   ./Documents/learn-nextjs14/app/(home)/page.tsx:5:14
+Ecmascript file had an error
+  3 |
+  4 | // metadata 는 합쳐짐 (merge)
+> 5 | export const metadata = {
+    |              ^^^^^^^^
+  6 |     title: "Home",
+  7 | };
+  8 |
+
+You are attempting to export "metadata" from a component marked with "use client", which is disallowed. Either remove the export, or the "use client" directive. Read more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import traces:
+  Client Component Browser:
+    ./Documents/learn-nextjs14/app/(home)/page.tsx [Client Component Browser]
+    ./Documents/learn-nextjs14/app/(home)/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/learn-nextjs14/app/(home)/page.tsx [Client Component SSR]
+    ./Documents/learn-nextjs14/app/(home)/page.tsx [Server Component]
+[00:24:08.628] Browser ERROR   ./Documents/learn-nextjs14/app/(home)/page.tsx:4:14
+Ecmascript file had an error
+  2 |
+  3 | // metadata 는 합쳐짐 (merge)
+> 4 | export const metadata = {
+    |              ^^^^^^^^
+  5 |     title: "Home",
+  6 | };
+  7 |
+
+You are attempting to export "metadata" from a component marked with "use client", which is disallowed. Either remove the export, or the "use client" directive. Read more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import traces:
+  Client Component Browser:
+    ./Documents/learn-nextjs14/app/(home)/page.tsx [Client Component Browser]
+    ./Documents/learn-nextjs14/app/(home)/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/learn-nextjs14/app/(home)/page.tsx [Client Component SSR]
+    ./Documents/learn-nextjs14/app/(home)/page.tsx [Server Component]
+[00:24:08.628] Browser ERROR   ./Documents/learn-nextjs14/app/(home)/page.tsx:4:14
+Ecmascript file had an error
+  2 |
+  3 | // metadata 는 합쳐짐 (merge)
+> 4 | export const metadata = {
+    |              ^^^^^^^^
+  5 |     title: "Home",
+  6 | };
+  7 |
+
+You are attempting to export "metadata" from a component marked with "use client", which is disallowed. Either remove the export, or the "use client" directive. Read more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import traces:
+  Client Component Browser:
+    ./Documents/learn-nextjs14/app/(home)/page.tsx [Client Component Browser]
+    ./Documents/learn-nextjs14/app/(home)/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/learn-nextjs14/app/(home)/page.tsx [Client Component SSR]
+    ./Documents/learn-nextjs14/app/(home)/page.tsx [Server Component]
+[00:24:08.629] Browser ERROR   ./Documents/learn-nextjs14/app/(home)/page.tsx:4:14
+Ecmascript file had an error
+  2 |
+  3 | // metadata 는 합쳐짐 (merge)
+> 4 | export const metadata = {
+    |              ^^^^^^^^
+  5 |     title: "Home",
+  6 | };
+  7 |
+
+You are attempting to export "metadata" from a component marked with "use client", which is disallowed. Either remove the export, or the "use client" directive. Read more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import traces:
+  Client Component Browser:
+    ./Documents/learn-nextjs14/app/(home)/page.tsx [Client Component Browser]
+    ./Documents/learn-nextjs14/app/(home)/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/learn-nextjs14/app/(home)/page.tsx [Client Component SSR]
+    ./Documents/learn-nextjs14/app/(home)/page.tsx [Server Component]
+[00:24:10.169] Server  ERROR    ⨯ ./Documents/learn-nextjs14/app/(home)/page.tsx:4:14
+Ecmascript file had an error
+  2 |
+  3 | // metadata 는 합쳐짐 (merge)
+> 4 | export const metadata = {
+    |              ^^^^^^^^
+  5 |     title: "Home",
+  6 | };
+  7 |
+
+You are attempting to export "metadata" from a component marked with "use client", which is disallowed. Either remove the export, or the "use client" directive. Read more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Documents/learn-nextjs14/app/(home)/page.tsx [Client Component Browser]
+    ./Documents/learn-nextjs14/app/(home)/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/learn-nextjs14/app/(home)/page.tsx [Client Component SSR]
+    ./Documents/learn-nextjs14/app/(home)/page.tsx [Server Component]
+
+
+[00:24:10.307] Browser ERROR   uncaughtError: Error: ./Documents/learn-nextjs14/app/(home)/page.tsx:4:14
+Ecmascript file had an error
+  2 |
+  3 | // metadata 는 합쳐짐 (merge)
+> 4 | export const metadata = {
+    |              ^^^^^^^^
+  5 |     title: "Home",
+  6 | };
+  7 |
+
+You are attempting to export "metadata" from a component marked with "use client", which is disallowed. Either remove the export, or the "use client" directive. Read more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Documents/learn-nextjs14/app/(home)/page.tsx [Client Component Browser]
+    ./Documents/learn-nextjs14/app/(home)/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/learn-nextjs14/app/(home)/page.tsx [Client Component SSR]
+    ./Documents/learn-nextjs14/app/(home)/page.tsx [Server Component]
+
+
+[00:24:10.443] Browser ERROR   ./Documents/learn-nextjs14/app/(home)/page.tsx:4:14
+Ecmascript file had an error
+  2 |
+  3 | // metadata 는 합쳐짐 (merge)
+> 4 | export const metadata = {
+    |              ^^^^^^^^
+  5 |     title: "Home",
+  6 | };
+  7 |
+
+You are attempting to export "metadata" from a component marked with "use client", which is disallowed. Either remove the export, or the "use client" directive. Read more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import traces:
+  Client Component Browser:
+    ./Documents/learn-nextjs14/app/(home)/page.tsx [Client Component Browser]
+    ./Documents/learn-nextjs14/app/(home)/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/learn-nextjs14/app/(home)/page.tsx [Client Component SSR]
+    ./Documents/learn-nextjs14/app/(home)/page.tsx [Server Component]
+[00:24:10.443] Browser ERROR   ./Documents/learn-nextjs14/app/(home)/page.tsx:4:14
+Ecmascript file had an error
+  2 |
+  3 | // metadata 는 합쳐짐 (merge)
+> 4 | export const metadata = {
+    |              ^^^^^^^^
+  5 |     title: "Home",
+  6 | };
+  7 |
+
+You are attempting to export "metadata" from a component marked with "use client", which is disallowed. Either remove the export, or the "use client" directive. Read more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import traces:
+  Client Component Browser:
+    ./Documents/learn-nextjs14/app/(home)/page.tsx [Client Component Browser]
+    ./Documents/learn-nextjs14/app/(home)/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/learn-nextjs14/app/(home)/page.tsx [Client Component SSR]
+    ./Documents/learn-nextjs14/app/(home)/page.tsx [Server Component]
+[00:24:10.779] Server  ERROR    ⨯ ./Documents/learn-nextjs14/app/(home)/page.tsx:4:14
+Ecmascript file had an error
+  2 |
+  3 | // metadata 는 합쳐짐 (merge)
+> 4 | export const metadata = {
+    |              ^^^^^^^^
+  5 |     title: "Home",
+  6 | };
+  7 |
+
+You are attempting to export "metadata" from a component marked with "use client", which is disallowed. Either remove the export, or the "use client" directive. Read more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Documents/learn-nextjs14/app/(home)/page.tsx [Client Component Browser]
+    ./Documents/learn-nextjs14/app/(home)/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/learn-nextjs14/app/(home)/page.tsx [Client Component SSR]
+    ./Documents/learn-nextjs14/app/(home)/page.tsx [Server Component]
+
+
+[00:24:10.895] Browser ERROR   uncaughtError: Error: ./Documents/learn-nextjs14/app/(home)/page.tsx:4:14
+Ecmascript file had an error
+  2 |
+  3 | // metadata 는 합쳐짐 (merge)
+> 4 | export const metadata = {
+    |              ^^^^^^^^
+  5 |     title: "Home",
+  6 | };
+  7 |
+
+You are attempting to export "metadata" from a component marked with "use client", which is disallowed. Either remove the export, or the "use client" directive. Read more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Documents/learn-nextjs14/app/(home)/page.tsx [Client Component Browser]
+    ./Documents/learn-nextjs14/app/(home)/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/learn-nextjs14/app/(home)/page.tsx [Client Component SSR]
+    ./Documents/learn-nextjs14/app/(home)/page.tsx [Server Component]
+
+
+[00:24:11.031] Browser ERROR   ./Documents/learn-nextjs14/app/(home)/page.tsx:4:14
+Ecmascript file had an error
+  2 |
+  3 | // metadata 는 합쳐짐 (merge)
+> 4 | export const metadata = {
+    |              ^^^^^^^^
+  5 |     title: "Home",
+  6 | };
+  7 |
+
+You are attempting to export "metadata" from a component marked with "use client", which is disallowed. Either remove the export, or the "use client" directive. Read more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import traces:
+  Client Component Browser:
+    ./Documents/learn-nextjs14/app/(home)/page.tsx [Client Component Browser]
+    ./Documents/learn-nextjs14/app/(home)/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/learn-nextjs14/app/(home)/page.tsx [Client Component SSR]
+    ./Documents/learn-nextjs14/app/(home)/page.tsx [Server Component]
+[00:24:11.031] Browser ERROR   ./Documents/learn-nextjs14/app/(home)/page.tsx:4:14
+Ecmascript file had an error
+  2 |
+  3 | // metadata 는 합쳐짐 (merge)
+> 4 | export const metadata = {
+    |              ^^^^^^^^
+  5 |     title: "Home",
+  6 | };
+  7 |
+
+You are attempting to export "metadata" from a component marked with "use client", which is disallowed. Either remove the export, or the "use client" directive. Read more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import traces:
+  Client Component Browser:
+    ./Documents/learn-nextjs14/app/(home)/page.tsx [Client Component Browser]
+    ./Documents/learn-nextjs14/app/(home)/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/learn-nextjs14/app/(home)/page.tsx [Client Component SSR]
+    ./Documents/learn-nextjs14/app/(home)/page.tsx [Server Component]
+[00:24:29.737] Server  LOG     /
+[00:24:31.201] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:24:31.469] Browser LOG     /
+[00:24:31.469] Browser LOG     /
+[00:24:38.842] Server  LOG     /
+[00:24:41.271] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:24:41.377] Browser LOG     /
+[00:24:41.377] Browser LOG     /
+[00:27:51.997] Server  LOG     I'm fetching
+[00:27:52.766] Browser LOG     /
+[00:27:52.767] Browser LOG     /
+[00:28:02.294] Server  LOG     I'm fetching
+[00:28:02.334] Server  LOG     /
+[00:28:04.010] Server  LOG     I'm fetching
+[00:28:04.019] Server  LOG     /
+[00:28:04.744] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:28:04.852] Browser LOG     /
+[00:28:04.852] Browser LOG     /
+[00:28:04.852] Browser ERROR   unhandledRejection: Error: Failed to load chunk /_next/static/chunks/%5Bturbopack%5D_browser_dev_hmr-client_hmr-client_ts_c8c997ce._.js from module [turbopack]/browser/dev/hmr-client/hmr-client.ts [app-client] (ecmascript, async loader)
+[00:28:05.813] Server  LOG     I'm fetching
+[00:28:05.826] Server  LOG     /
+[00:28:08.327] Server  LOG     I'm fetching
+[00:28:08.347] Server  LOG     /
+[00:28:13.372] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:28:13.372] Browser LOG     /
+[00:28:13.372] Browser LOG     /
