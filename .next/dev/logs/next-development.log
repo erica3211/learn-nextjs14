@@ -1391,3 +1391,29 @@ Import traces:
 [00:28:13.372] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
 [00:28:13.372] Browser LOG     /
 [00:28:13.372] Browser LOG     /
+[00:37:50.785] Server  LOG      ✓ Compiled in 97ms
+[00:37:51.000] Server  ERROR    ⨯ Error: The default export is not a React Component in "/loading"
+[00:37:51.106] Server  ERROR    ⨯ Error: The default export is not a React Component in "/loading"
+[00:37:51.269] Server  ERROR    ⨯ Error: The default export is not a React Component in "/loading"
+[00:37:51.376] Server  ERROR    ⨯ Error: The default export is not a React Component in "/loading"
+[00:37:51.451] Browser ERROR   uncaughtError: Error: The default export is not a React Component in "/loading"
+[00:38:43.003] Server  LOG      ✓ Compiled in 12ms
+[00:39:20.120] Server  LOG      ✓ Compiled in 2ms
+[00:40:01.465] Server  LOG     I'm fetching
+[00:40:01.500] Server  LOG     /
+[00:40:01.593] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:40:01.697] Browser LOG     /
+[00:40:01.697] Browser LOG     /
+[00:40:50.161] Server  LOG     I'm fetching
+[00:40:50.765] Browser LOG     /
+[00:40:50.766] Browser LOG     /
+[00:40:53.763] Server  LOG     I'm fetching
+[00:40:53.804] Server  LOG     /
+[00:40:53.868] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:40:53.868] Browser LOG     /
+[00:40:53.868] Browser LOG     /
+[00:41:22.629] Server  LOG     I'm fetching
+[00:41:22.642] Server  LOG     /
+[00:41:22.710] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:41:22.710] Browser LOG     /
+[00:41:22.710] Browser LOG     /
