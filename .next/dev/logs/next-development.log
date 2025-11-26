@@ -5,3 +5,629 @@
 [00:00:02.628] Browser LOG     /movies/dddd
 [00:00:58.765] Browser LOG     /movies/dddd
 [00:00:58.765] Browser LOG     /movies/dddd
+[00:08:14.013] Server  ERROR    ⨯ ./Documents/learn-nextjs14/app/(home)/page.tsx:1:10
+Ecmascript file had an error
+> 1 | import { useEffect, useState } from "react";
+    |          ^^^^^^^^^
+  2 |
+  3 | // metadata 는 합쳐짐 (merge)
+  4 | export const metadata = {
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+
+
+
+
+./Documents/learn-nextjs14/app/(home)/page.tsx:1:21
+Ecmascript file had an error
+> 1 | import { useEffect, useState } from "react";
+    |                     ^^^^^^^^
+  2 |
+  3 | // metadata 는 합쳐짐 (merge)
+  4 | export const metadata = {
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+
+
+
+[00:08:14.144] Browser ERROR   ./Documents/learn-nextjs14/app/(home)/page.tsx:1:10
+Ecmascript file had an error
+> 1 | import { useEffect, useState } from "react";
+    |          ^^^^^^^^^
+  2 |
+  3 | // metadata 는 합쳐짐 (merge)
+  4 | export const metadata = {
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:08:14.144] Browser ERROR   ./Documents/learn-nextjs14/app/(home)/page.tsx:1:21
+Ecmascript file had an error
+> 1 | import { useEffect, useState } from "react";
+    |                     ^^^^^^^^
+  2 |
+  3 | // metadata 는 합쳐짐 (merge)
+  4 | export const metadata = {
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:08:14.421] Browser ERROR   ./Documents/learn-nextjs14/app/(home)/page.tsx:1:10
+Ecmascript file had an error
+> 1 | import { useEffect, useState } from "react";
+    |          ^^^^^^^^^
+  2 |
+  3 | // metadata 는 합쳐짐 (merge)
+  4 | export const metadata = {
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:08:14.421] Browser ERROR   ./Documents/learn-nextjs14/app/(home)/page.tsx:1:21
+Ecmascript file had an error
+> 1 | import { useEffect, useState } from "react";
+    |                     ^^^^^^^^
+  2 |
+  3 | // metadata 는 합쳐짐 (merge)
+  4 | export const metadata = {
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:08:14.421] Browser ERROR   ./Documents/learn-nextjs14/app/(home)/page.tsx:1:10
+Ecmascript file had an error
+> 1 | import { useEffect, useState } from "react";
+    |          ^^^^^^^^^
+  2 |
+  3 | // metadata 는 합쳐짐 (merge)
+  4 | export const metadata = {
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:08:14.421] Browser ERROR   ./Documents/learn-nextjs14/app/(home)/page.tsx:1:21
+Ecmascript file had an error
+> 1 | import { useEffect, useState } from "react";
+    |                     ^^^^^^^^
+  2 |
+  3 | // metadata 는 합쳐짐 (merge)
+  4 | export const metadata = {
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:08:14.421] Browser ERROR   ./Documents/learn-nextjs14/app/(home)/page.tsx:1:10
+Ecmascript file had an error
+> 1 | import { useEffect, useState } from "react";
+    |          ^^^^^^^^^
+  2 |
+  3 | // metadata 는 합쳐짐 (merge)
+  4 | export const metadata = {
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:08:14.421] Browser ERROR   ./Documents/learn-nextjs14/app/(home)/page.tsx:1:21
+Ecmascript file had an error
+> 1 | import { useEffect, useState } from "react";
+    |                     ^^^^^^^^
+  2 |
+  3 | // metadata 는 합쳐짐 (merge)
+  4 | export const metadata = {
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:08:14.425] Server  ERROR    ⨯ ./Documents/learn-nextjs14/app/(home)/page.tsx:1:10
+Ecmascript file had an error
+> 1 | import { useEffect, useState } from "react";
+    |          ^^^^^^^^^
+  2 |
+  3 | // metadata 는 합쳐짐 (merge)
+  4 | export const metadata = {
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+
+
+
+
+./Documents/learn-nextjs14/app/(home)/page.tsx:1:21
+Ecmascript file had an error
+> 1 | import { useEffect, useState } from "react";
+    |                     ^^^^^^^^
+  2 |
+  3 | // metadata 는 합쳐짐 (merge)
+  4 | export const metadata = {
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+
+
+
+[00:08:14.493] Browser ERROR   uncaughtError: Error: ./Documents/learn-nextjs14/app/(home)/page.tsx:1:10
+Ecmascript file had an error
+> 1 | import { useEffect, useState } from "react";
+    |          ^^^^^^^^^
+  2 |
+  3 | // metadata 는 합쳐짐 (merge)
+  4 | export const metadata = {
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+
+
+
+[00:08:14.636] Browser ERROR   ./Documents/learn-nextjs14/app/(home)/page.tsx:1:10
+Ecmascript file had an error
+> 1 | import { useEffect, useState } from "react";
+    |          ^^^^^^^^^
+  2 |
+  3 | // metadata 는 합쳐짐 (merge)
+  4 | export const metadata = {
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:08:14.636] Browser ERROR   ./Documents/learn-nextjs14/app/(home)/page.tsx:1:21
+Ecmascript file had an error
+> 1 | import { useEffect, useState } from "react";
+    |                     ^^^^^^^^
+  2 |
+  3 | // metadata 는 합쳐짐 (merge)
+  4 | export const metadata = {
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:08:14.636] Browser ERROR   ./Documents/learn-nextjs14/app/(home)/page.tsx:1:10
+Ecmascript file had an error
+> 1 | import { useEffect, useState } from "react";
+    |          ^^^^^^^^^
+  2 |
+  3 | // metadata 는 합쳐짐 (merge)
+  4 | export const metadata = {
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:08:14.636] Browser ERROR   ./Documents/learn-nextjs14/app/(home)/page.tsx:1:21
+Ecmascript file had an error
+> 1 | import { useEffect, useState } from "react";
+    |                     ^^^^^^^^
+  2 |
+  3 | // metadata 는 합쳐짐 (merge)
+  4 | export const metadata = {
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:08:44.766] Browser ERROR   ./Documents/learn-nextjs14/app/(home)/page.tsx:1:10
+Ecmascript file had an error
+> 1 | import { useEffect, useState } from "react";
+    |          ^^^^^^^^^
+  2 |
+  3 | // metadata 는 합쳐짐 (merge)
+  4 | // export const metadata = {
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:08:44.766] Browser ERROR   ./Documents/learn-nextjs14/app/(home)/page.tsx:1:21
+Ecmascript file had an error
+> 1 | import { useEffect, useState } from "react";
+    |                     ^^^^^^^^
+  2 |
+  3 | // metadata 는 합쳐짐 (merge)
+  4 | // export const metadata = {
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:08:44.766] Browser ERROR   ./Documents/learn-nextjs14/app/(home)/page.tsx:1:10
+Ecmascript file had an error
+> 1 | import { useEffect, useState } from "react";
+    |          ^^^^^^^^^
+  2 |
+  3 | // metadata 는 합쳐짐 (merge)
+  4 | // export const metadata = {
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:08:44.766] Browser ERROR   ./Documents/learn-nextjs14/app/(home)/page.tsx:1:21
+Ecmascript file had an error
+> 1 | import { useEffect, useState } from "react";
+    |                     ^^^^^^^^
+  2 |
+  3 | // metadata 는 합쳐짐 (merge)
+  4 | // export const metadata = {
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:08:44.766] Browser ERROR   ./Documents/learn-nextjs14/app/(home)/page.tsx:1:10
+Ecmascript file had an error
+> 1 | import { useEffect, useState } from "react";
+    |          ^^^^^^^^^
+  2 |
+  3 | // metadata 는 합쳐짐 (merge)
+  4 | // export const metadata = {
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:08:44.766] Browser ERROR   ./Documents/learn-nextjs14/app/(home)/page.tsx:1:21
+Ecmascript file had an error
+> 1 | import { useEffect, useState } from "react";
+    |                     ^^^^^^^^
+  2 |
+  3 | // metadata 는 합쳐짐 (merge)
+  4 | // export const metadata = {
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:08:44.766] Browser ERROR   ./Documents/learn-nextjs14/app/(home)/page.tsx:1:10
+Ecmascript file had an error
+> 1 | import { useEffect, useState } from "react";
+    |          ^^^^^^^^^
+  2 |
+  3 | // metadata 는 합쳐짐 (merge)
+  4 | // export const metadata = {
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:08:44.766] Browser ERROR   ./Documents/learn-nextjs14/app/(home)/page.tsx:1:21
+Ecmascript file had an error
+> 1 | import { useEffect, useState } from "react";
+    |                     ^^^^^^^^
+  2 |
+  3 | // metadata 는 합쳐짐 (merge)
+  4 | // export const metadata = {
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:08:45.764] Browser ERROR   ./Documents/learn-nextjs14/app/(home)/page.tsx:1:10
+Ecmascript file had an error
+> 1 | import { useEffect, useState } from "react";
+    |          ^^^^^^^^^
+  2 |
+  3 | // metadata 는 합쳐짐 (merge)
+  4 | // export const metadata = {
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:08:45.764] Browser ERROR   ./Documents/learn-nextjs14/app/(home)/page.tsx:1:21
+Ecmascript file had an error
+> 1 | import { useEffect, useState } from "react";
+    |                     ^^^^^^^^
+  2 |
+  3 | // metadata 는 합쳐짐 (merge)
+  4 | // export const metadata = {
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:08:46.766] Browser ERROR   ./Documents/learn-nextjs14/app/(home)/page.tsx:1:10
+Ecmascript file had an error
+> 1 | import { useEffect, useState } from "react";
+    |          ^^^^^^^^^
+  2 |
+  3 | // metadata 는 합쳐짐 (merge)
+  4 | // export const metadata = {
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:08:46.766] Browser ERROR   ./Documents/learn-nextjs14/app/(home)/page.tsx:1:21
+Ecmascript file had an error
+> 1 | import { useEffect, useState } from "react";
+    |                     ^^^^^^^^
+  2 |
+  3 | // metadata 는 합쳐짐 (merge)
+  4 | // export const metadata = {
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:08:48.056] Server  ERROR    ⨯ ./Documents/learn-nextjs14/app/(home)/page.tsx:1:10
+Ecmascript file had an error
+> 1 | import { useEffect, useState } from "react";
+    |          ^^^^^^^^^
+  2 |
+  3 | // metadata 는 합쳐짐 (merge)
+  4 | // export const metadata = {
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+
+
+
+
+./Documents/learn-nextjs14/app/(home)/page.tsx:1:21
+Ecmascript file had an error
+> 1 | import { useEffect, useState } from "react";
+    |                     ^^^^^^^^
+  2 |
+  3 | // metadata 는 합쳐짐 (merge)
+  4 | // export const metadata = {
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+
+
+
+[00:08:48.151] Browser ERROR   uncaughtError: Error: ./Documents/learn-nextjs14/app/(home)/page.tsx:1:10
+Ecmascript file had an error
+> 1 | import { useEffect, useState } from "react";
+    |          ^^^^^^^^^
+  2 |
+  3 | // metadata 는 합쳐짐 (merge)
+  4 | // export const metadata = {
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+
+
+
+[00:08:48.287] Browser ERROR   ./Documents/learn-nextjs14/app/(home)/page.tsx:1:10
+Ecmascript file had an error
+> 1 | import { useEffect, useState } from "react";
+    |          ^^^^^^^^^
+  2 |
+  3 | // metadata 는 합쳐짐 (merge)
+  4 | // export const metadata = {
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:08:48.287] Browser ERROR   ./Documents/learn-nextjs14/app/(home)/page.tsx:1:21
+Ecmascript file had an error
+> 1 | import { useEffect, useState } from "react";
+    |                     ^^^^^^^^
+  2 |
+  3 | // metadata 는 합쳐짐 (merge)
+  4 | // export const metadata = {
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:08:48.287] Browser ERROR   ./Documents/learn-nextjs14/app/(home)/page.tsx:1:10
+Ecmascript file had an error
+> 1 | import { useEffect, useState } from "react";
+    |          ^^^^^^^^^
+  2 |
+  3 | // metadata 는 합쳐짐 (merge)
+  4 | // export const metadata = {
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:08:48.287] Browser ERROR   ./Documents/learn-nextjs14/app/(home)/page.tsx:1:21
+Ecmascript file had an error
+> 1 | import { useEffect, useState } from "react";
+    |                     ^^^^^^^^
+  2 |
+  3 | // metadata 는 합쳐짐 (merge)
+  4 | // export const metadata = {
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:08:48.568] Server  ERROR    ⨯ ./Documents/learn-nextjs14/app/(home)/page.tsx:1:10
+Ecmascript file had an error
+> 1 | import { useEffect, useState } from "react";
+    |          ^^^^^^^^^
+  2 |
+  3 | // metadata 는 합쳐짐 (merge)
+  4 | // export const metadata = {
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+
+
+
+
+./Documents/learn-nextjs14/app/(home)/page.tsx:1:21
+Ecmascript file had an error
+> 1 | import { useEffect, useState } from "react";
+    |                     ^^^^^^^^
+  2 |
+  3 | // metadata 는 합쳐짐 (merge)
+  4 | // export const metadata = {
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+
+
+
+[00:08:48.644] Browser ERROR   uncaughtError: Error: ./Documents/learn-nextjs14/app/(home)/page.tsx:1:10
+Ecmascript file had an error
+> 1 | import { useEffect, useState } from "react";
+    |          ^^^^^^^^^
+  2 |
+  3 | // metadata 는 합쳐짐 (merge)
+  4 | // export const metadata = {
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+
+
+
+[00:08:48.780] Browser ERROR   ./Documents/learn-nextjs14/app/(home)/page.tsx:1:10
+Ecmascript file had an error
+> 1 | import { useEffect, useState } from "react";
+    |          ^^^^^^^^^
+  2 |
+  3 | // metadata 는 합쳐짐 (merge)
+  4 | // export const metadata = {
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:08:48.780] Browser ERROR   ./Documents/learn-nextjs14/app/(home)/page.tsx:1:21
+Ecmascript file had an error
+> 1 | import { useEffect, useState } from "react";
+    |                     ^^^^^^^^
+  2 |
+  3 | // metadata 는 합쳐짐 (merge)
+  4 | // export const metadata = {
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:08:48.780] Browser ERROR   ./Documents/learn-nextjs14/app/(home)/page.tsx:1:10
+Ecmascript file had an error
+> 1 | import { useEffect, useState } from "react";
+    |          ^^^^^^^^^
+  2 |
+  3 | // metadata 는 합쳐짐 (merge)
+  4 | // export const metadata = {
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:08:48.780] Browser ERROR   ./Documents/learn-nextjs14/app/(home)/page.tsx:1:21
+Ecmascript file had an error
+> 1 | import { useEffect, useState } from "react";
+    |                     ^^^^^^^^
+  2 |
+  3 | // metadata 는 합쳐짐 (merge)
+  4 | // export const metadata = {
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:08:49.047] Server  ERROR    ⨯ ./Documents/learn-nextjs14/app/(home)/page.tsx:1:10
+Ecmascript file had an error
+> 1 | import { useEffect, useState } from "react";
+    |          ^^^^^^^^^
+  2 |
+  3 | // metadata 는 합쳐짐 (merge)
+  4 | // export const metadata = {
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+
+
+
+
+./Documents/learn-nextjs14/app/(home)/page.tsx:1:21
+Ecmascript file had an error
+> 1 | import { useEffect, useState } from "react";
+    |                     ^^^^^^^^
+  2 |
+  3 | // metadata 는 합쳐짐 (merge)
+  4 | // export const metadata = {
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+
+
+
+[00:08:49.140] Browser ERROR   uncaughtError: Error: ./Documents/learn-nextjs14/app/(home)/page.tsx:1:10
+Ecmascript file had an error
+> 1 | import { useEffect, useState } from "react";
+    |          ^^^^^^^^^
+  2 |
+  3 | // metadata 는 합쳐짐 (merge)
+  4 | // export const metadata = {
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+
+
+
+[00:08:49.275] Browser ERROR   ./Documents/learn-nextjs14/app/(home)/page.tsx:1:10
+Ecmascript file had an error
+> 1 | import { useEffect, useState } from "react";
+    |          ^^^^^^^^^
+  2 |
+  3 | // metadata 는 합쳐짐 (merge)
+  4 | // export const metadata = {
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:08:49.275] Browser ERROR   ./Documents/learn-nextjs14/app/(home)/page.tsx:1:21
+Ecmascript file had an error
+> 1 | import { useEffect, useState } from "react";
+    |                     ^^^^^^^^
+  2 |
+  3 | // metadata 는 합쳐짐 (merge)
+  4 | // export const metadata = {
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:08:49.275] Browser ERROR   ./Documents/learn-nextjs14/app/(home)/page.tsx:1:10
+Ecmascript file had an error
+> 1 | import { useEffect, useState } from "react";
+    |          ^^^^^^^^^
+  2 |
+  3 | // metadata 는 합쳐짐 (merge)
+  4 | // export const metadata = {
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:08:49.275] Browser ERROR   ./Documents/learn-nextjs14/app/(home)/page.tsx:1:21
+Ecmascript file had an error
+> 1 | import { useEffect, useState } from "react";
+    |                     ^^^^^^^^
+  2 |
+  3 | // metadata 는 합쳐짐 (merge)
+  4 | // export const metadata = {
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:09:31.543] Server  LOG     /
+[00:09:31.632] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:09:31.765] Browser LOG     /
+[00:09:31.765] Browser LOG     /
+[00:11:00.602] Server  LOG      ✓ Compiled in 5ms
+[00:11:30.084] Server  LOG      ✓ Compiled in 6ms
+[00:12:00.659] Server  LOG      ✓ Compiled in 4ms
+[00:12:08.050] Server  LOG     /
+[00:12:08.133] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:12:08.237] Browser LOG     /
+[00:12:08.238] Browser LOG     /
+[00:13:03.706] Server  LOG     /
+[00:13:03.844] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:13:03.951] Browser LOG     /
+[00:13:03.951] Browser LOG     /
