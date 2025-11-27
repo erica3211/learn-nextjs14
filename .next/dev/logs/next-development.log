@@ -1,57 +1,44 @@
-[00:00:00.302] Server  LOG      ✓ Ready in 200ms
-[00:00:03.731] Server  LOG     I'm fetching
-[00:00:03.779] Server  LOG     /
-[00:00:03.876] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:03.979] Browser LOG     /
-[00:00:03.979] Browser LOG     /
-[00:00:06.837] Browser LOG     /movies/1084242
-[00:00:06.837] Browser LOG     /movies/1084242
-[00:01:27.006] Browser LOG     /movies/1084242
-[00:01:27.007] Browser LOG     /movies/1084242
-[00:01:29.006] Browser LOG     /movies/1084242
-[00:01:29.006] Browser LOG     /movies/1084242
-[00:02:11.005] Browser LOG     /movies/1084242
-[00:02:11.005] Browser LOG     /movies/1084242
-[00:02:17.006] Browser LOG     /movies/1084242
-[00:02:17.006] Browser LOG     /movies/1084242
-[00:05:53.005] Browser LOG     /movies/1084242
-[00:05:53.005] Browser LOG     /movies/1084242
-[00:05:55.011] Browser LOG     /movies/1084242
-[00:05:55.011] Browser LOG     /movies/1084242
-[00:07:04.005] Browser LOG     /movies/1084242
-[00:07:04.005] Browser LOG     /movies/1084242
-[00:07:06.006] Browser LOG     /movies/1084242
-[00:07:06.006] Browser LOG     /movies/1084242
-[00:10:15.006] Browser LOG     /movies/1084242
-[00:10:15.006] Browser LOG     /movies/1084242
-[00:10:17.005] Browser LOG     /movies/1084242
-[00:10:17.005] Browser LOG     /movies/1084242
-[00:10:20.007] Browser LOG     /movies/1084242
-[00:10:20.007] Browser LOG     /movies/1084242
-[00:10:22.007] Browser LOG     /movies/1084242
-[00:10:22.007] Browser LOG     /movies/1084242
-[00:14:55.256] Server  LOG     I'm fetching
-[00:14:55.376] Browser LOG     /
-[00:14:55.376] Browser LOG     /
-[00:14:57.515] Browser LOG     /movies/1363123
-[00:14:57.515] Browser LOG     /movies/1363123
-[00:19:42.006] Browser ERROR   ./Documents/learn-nextjs14/app/(movies)/movies/[id]/page.tsx:19:5
-Parsing ecmascript source code failed
-  17 |             </Suspense>
-  18 |         </div>>
-> 19 |     )
-     |     ^
-  20 | }
-
-Expression expected
-[00:20:13.006] Browser LOG     /movies/1363123
-[00:20:13.006] Browser LOG     /movies/1363123
-[00:20:19.943] Server  LOG     I'm fetching
-[00:20:20.057] Browser LOG     /
-[00:20:20.057] Browser LOG     /
-[00:20:27.509] Browser LOG     /movies/967941
-[00:20:27.509] Browser LOG     /movies/967941
-[00:21:08.005] Browser LOG     /movies/967941
-[00:21:08.005] Browser LOG     /movies/967941
-[00:21:10.006] Browser LOG     /movies/967941
-[00:21:10.006] Browser LOG     /movies/967941
+[00:00:00.398] Server  LOG      ✓ Ready in 299ms
+[00:00:01.530] Server  LOG     I'm fetching
+[00:00:01.575] Server  LOG     /
+[00:00:01.645] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:01.646] Browser LOG     /
+[00:00:01.646] Browser LOG     /
+[00:00:04.919] Server  LOG     I'm fetching
+[00:00:04.931] Server  LOG     /
+[00:00:04.991] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:04.991] Browser LOG     /
+[00:00:04.991] Browser LOG     /
+[00:00:07.779] Browser LOG     /movies/1419406
+[00:00:07.780] Browser LOG     /movies/1419406
+[00:00:11.467] Server  LOG     I'm fetching
+[00:00:11.584] Browser LOG     /
+[00:00:11.584] Browser LOG     /
+[00:00:14.043] Browser LOG     /movies/1419406
+[00:00:14.043] Browser LOG     /movies/1419406
+[00:00:15.034] Server  LOG     I'm fetching
+[00:00:15.149] Browser LOG     /
+[00:00:15.149] Browser LOG     /
+[00:00:16.138] Server  LOG     I'm fetching
+[00:00:16.148] Server  LOG     /
+[00:00:16.226] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:16.226] Browser LOG     /
+[00:00:16.226] Browser LOG     /
+[00:00:18.607] Server  LOG     I'm fetching
+[00:00:18.720] Browser LOG     /
+[00:00:18.720] Browser LOG     /
+[00:00:19.577] Browser LOG     /about-us
+[00:00:19.577] Browser LOG     /about-us
+[00:00:21.348] Server  LOG     I'm fetching
+[00:00:21.465] Browser LOG     /
+[00:00:21.465] Browser LOG     /
+[00:00:24.389] Browser LOG     /movies/1033462
+[00:00:24.389] Browser LOG     /movies/1033462
+[00:00:26.562] Server  LOG     I'm fetching
+[00:00:26.677] Browser LOG     /
+[00:00:26.677] Browser LOG     /
+[00:00:34.591] Browser LOG     /movies/1033462
+[00:00:34.591] Browser LOG     /movies/1033462
+[00:00:35.620] Server  LOG     I'm fetching
+[00:00:35.735] Browser LOG     /
+[00:00:35.735] Browser LOG     /

@@ -7785,7 +7785,7 @@ const _handlemutable = __turbopack_context__.r("[project]/Documents/learn-nextjs
 const _navigation = __turbopack_context__.r("[project]/Documents/learn-nextjs14/node_modules/next/dist/client/components/segment-cache/navigation.js [app-client] (ecmascript)");
 const _types = __turbopack_context__.r("[project]/Documents/learn-nextjs14/node_modules/next/dist/client/components/segment-cache/types.js [app-client] (ecmascript)");
 const _cache = __turbopack_context__.r("[project]/Documents/learn-nextjs14/node_modules/next/dist/client/components/segment-cache/cache.js [app-client] (ecmascript)");
-const DYNAMIC_STALETIME_MS = Number(("TURBOPACK compile-time value", "0")) * 1000;
+const DYNAMIC_STALETIME_MS = Number(("TURBOPACK compile-time value", "30")) * 1000;
 const STATIC_STALETIME_MS = (0, _cache.getStaleTimeMs)(Number(("TURBOPACK compile-time value", "300")));
 function handleExternalUrl(state, mutable, url, pendingPush) {
     mutable.mpaNavigation = true;
