@@ -22,3 +22,36 @@
 [00:07:04.005] Browser LOG     /movies/1084242
 [00:07:06.006] Browser LOG     /movies/1084242
 [00:07:06.006] Browser LOG     /movies/1084242
+[00:10:15.006] Browser LOG     /movies/1084242
+[00:10:15.006] Browser LOG     /movies/1084242
+[00:10:17.005] Browser LOG     /movies/1084242
+[00:10:17.005] Browser LOG     /movies/1084242
+[00:10:20.007] Browser LOG     /movies/1084242
+[00:10:20.007] Browser LOG     /movies/1084242
+[00:10:22.007] Browser LOG     /movies/1084242
+[00:10:22.007] Browser LOG     /movies/1084242
+[00:14:55.256] Server  LOG     I'm fetching
+[00:14:55.376] Browser LOG     /
+[00:14:55.376] Browser LOG     /
+[00:14:57.515] Browser LOG     /movies/1363123
+[00:14:57.515] Browser LOG     /movies/1363123
+[00:19:42.006] Browser ERROR   ./Documents/learn-nextjs14/app/(movies)/movies/[id]/page.tsx:19:5
+Parsing ecmascript source code failed
+  17 |             </Suspense>
+  18 |         </div>>
+> 19 |     )
+     |     ^
+  20 | }
+
+Expression expected
+[00:20:13.006] Browser LOG     /movies/1363123
+[00:20:13.006] Browser LOG     /movies/1363123
+[00:20:19.943] Server  LOG     I'm fetching
+[00:20:20.057] Browser LOG     /
+[00:20:20.057] Browser LOG     /
+[00:20:27.509] Browser LOG     /movies/967941
+[00:20:27.509] Browser LOG     /movies/967941
+[00:21:08.005] Browser LOG     /movies/967941
+[00:21:08.005] Browser LOG     /movies/967941
+[00:21:10.006] Browser LOG     /movies/967941
+[00:21:10.006] Browser LOG     /movies/967941

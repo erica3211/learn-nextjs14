@@ -4,6 +4,7 @@ import Link from "next/link";
 export const metadata = {
     title: "Home",
 };
+// https://nomad-movies.nomadcoders.workers.dev/
 export const API_URL = "https://nomad-movies.nomadcoders.workers.dev/movies";
 
 async function getMovies() {
