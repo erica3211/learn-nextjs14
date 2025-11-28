@@ -67,3 +67,98 @@
 [00:20:19.779] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
 [00:20:19.862] Browser LOG     /movies/425274
 [00:20:19.862] Browser LOG     /movies/425274
+[00:26:52.886] Browser LOG     /movies/425274
+[00:26:52.886] Browser LOG     /movies/425274
+[00:26:54.887] Browser LOG     /movies/425274
+[00:26:54.887] Browser LOG     /movies/425274
+[00:28:47.162] Server  WARN    Error: Route "/movies/[id]" used `params.id`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:28:47.886] Browser LOG     /movies/425274
+[00:28:47.886] Browser LOG     /movies/425274
+[00:28:49.758] Server  ERROR    ⨯ SyntaxError: Unexpected token 'I', "Internal S"... is not valid JSON
+[00:28:49.766] Server  ERROR    ⨯ SyntaxError: Unexpected end of JSON input
+[00:28:50.886] Browser LOG     /movies/425274
+[00:28:50.886] Browser LOG     /movies/425274
+[00:28:50.886] Browser LOG     /movies/425274
+[00:28:50.886] Browser LOG     /movies/425274
+[00:29:30.750] Server  LOG     I'm fetching
+[00:29:30.870] Browser LOG     /
+[00:29:30.870] Browser LOG     /
+[00:29:34.696] Server  WARN    Error: Route "/movies/[id]" used `params.id`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:29:34.812] Browser LOG     /movies/1033462
+[00:29:34.812] Browser LOG     /movies/1033462
+[00:29:37.264] Server  ERROR    ⨯ SyntaxError: Unexpected end of JSON input
+[00:29:37.297] Server  ERROR    ⨯ SyntaxError: Unexpected token 'I', "Internal S"... is not valid JSON
+[00:30:26.656] Server  WARN    Error: Route "/movies/[id]" used `params.id`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:30:26.886] Browser LOG     /movies/1033462
+[00:30:26.886] Browser LOG     /movies/1033462
+[00:30:28.671] Server  ERROR    ⨯ SyntaxError: Unexpected end of JSON input
+[00:30:29.269] Server  ERROR    ⨯ SyntaxError: Unexpected token 'I', "Internal S"... is not valid JSON
+[00:30:57.887] Server  WARN    Error: Route "/movies/[id]" used `params.id`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:30:58.886] Browser LOG     /movies/1033462
+[00:30:58.886] Browser LOG     /movies/1033462
+[00:30:59.908] Server  ERROR    ⨯ SyntaxError: Unexpected end of JSON input
+[00:31:00.474] Server  ERROR    ⨯ SyntaxError: Unexpected token 'I', "Internal S"... is not valid JSON
+[00:34:06.886] Browser LOG     /movies/1033462
+[00:34:06.886] Browser LOG     /movies/1033462
+[00:34:09.458] Server  LOG     /movies/1033462
+[00:34:09.549] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:34:09.651] Browser LOG     /movies/1033462
+[00:34:09.651] Browser LOG     /movies/1033462
+[00:34:21.176] Server  LOG     I'm fetching
+[00:34:21.297] Browser LOG     /
+[00:34:21.297] Browser LOG     /
+[00:34:23.802] Browser LOG     /movies/967941
+[00:34:23.802] Browser LOG     /movies/967941
+[00:34:23.802] Browser LOG     /movies/967941
+[00:34:23.802] Browser LOG     /movies/967941
+[00:34:23.802] Browser LOG     /movies/967941
+[00:34:23.802] Browser LOG     /movies/967941
+[00:34:29.604] Server  LOG     I'm fetching
+[00:34:29.717] Browser LOG     /
+[00:34:29.717] Browser LOG     /
+[00:34:33.553] Browser LOG     /movies/967941
+[00:34:33.553] Browser LOG     /movies/967941
+[00:34:38.146] Server  LOG     I'm fetching
+[00:34:38.257] Browser LOG     /
+[00:34:38.257] Browser LOG     /
+[00:34:44.368] Browser LOG     /movies/1033462
+[00:34:44.368] Browser LOG     /movies/1033462
+[00:34:44.368] Browser LOG     /movies/1033462
+[00:34:44.368] Browser LOG     /movies/1033462
+[00:34:44.368] Browser LOG     /movies/1033462
+[00:34:44.368] Browser LOG     /movies/1033462
+[00:36:08.886] Browser LOG     /movies/1033462
+[00:36:08.887] Browser LOG     /movies/1033462
+[00:36:10.886] Browser LOG     /movies/1033462
+[00:36:10.886] Browser LOG     /movies/1033462
+[00:38:50.886] Browser LOG     /movies/1033462
+[00:38:50.886] Browser LOG     /movies/1033462
+[00:38:52.887] Browser LOG     /movies/1033462
+[00:38:52.887] Browser LOG     /movies/1033462
+[00:39:08.886] Browser LOG     /movies/1033462
+[00:39:08.886] Browser LOG     /movies/1033462
+[00:39:10.457] Browser LOG     /movies/1033462
+[00:39:10.457] Browser LOG     /movies/1033462
+[00:39:12.158] Server  LOG     I'm fetching
+[00:39:12.273] Browser LOG     /
+[00:39:12.273] Browser LOG     /
+[00:39:14.208] Browser LOG     /movies/967941
+[00:39:14.208] Browser LOG     /movies/967941
+[00:39:14.208] Browser LOG     /movies/967941
+[00:39:14.208] Browser LOG     /movies/967941
+[00:39:14.208] Browser LOG     /movies/967941
+[00:39:14.209] Browser LOG     /movies/967941
+[00:41:34.886] Browser LOG     /movies/967941
+[00:41:34.886] Browser LOG     /movies/967941
+[00:41:36.887] Browser LOG     /movies/967941
+[00:41:36.887] Browser LOG     /movies/967941
+[00:41:41.395] Server  LOG     /movies/967941
+[00:41:41.522] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:41:41.625] Browser LOG     /movies/967941
+[00:41:41.625] Browser LOG     /movies/967941
+[00:41:58.845] Server  LOG     /movies/967941
+[00:42:19.762] Server  LOG     /movies/967941
+[00:43:00.886] Browser LOG     /movies/967941
+[00:43:00.886] Browser LOG     /movies/967941
+[00:43:02.891] Browser LOG     /movies/967941
+[00:43:02.891] Browser LOG     /movies/967941
