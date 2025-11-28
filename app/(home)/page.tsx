@@ -1,4 +1,6 @@
 import Link from "next/link";
+import Movie from "../../components/movie";
+import styles from "../../styles/home.module.css";
 
 // metadata 는 합쳐짐 (merge)
 export const metadata = {
@@ -18,11 +20,14 @@ async function getMovies() {
 export default async function HomePage() {
     const movies = await getMovies();
     return (
-        <div>
+        <div className={styles.container}>
             {movies.map((movie) => (
-                <li key={movie.id}>
-                    <Link href={`/movies/${movie.id}`}>{movie.title}</Link>
-                </li>
+                <Movie
+                    key={movie.id}
+                    id={movie.id}
+                    poster_path={movie.poster_path}
+                    title={movie.title}
+                />
             ))}
         </div>
     )

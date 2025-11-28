@@ -46,3 +46,414 @@
 [00:19:58.130] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
 [00:19:58.130] Browser LOG     /
 [00:19:58.130] Browser LOG     /
+[00:28:56.069] Server  LOG      ✓ Compiled in 4ms
+[00:32:47.300] Server  LOG     I'm fetching
+[00:32:47.323] Server  LOG     I'm fetching
+[00:32:47.335] Server  LOG     /
+[00:32:47.410] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:32:47.928] Browser LOG     /
+[00:32:47.928] Browser LOG     /
+[00:33:56.601] Server  LOG     I'm fetching
+[00:33:56.927] Browser LOG     /
+[00:33:56.927] Browser LOG     /
+[00:33:57.912] Browser LOG     /
+[00:33:57.912] Browser LOG     /
+[00:34:03.249] Browser LOG     /movies/1033462
+[00:34:03.249] Browser LOG     /movies/1033462
+[00:38:45.928] Browser ERROR   ./Documents/learn-nextjs14/app/(home)/page.tsx:30:15
+Parsing ecmascript source code failed
+  28 |                 title={movie.title}
+  29 |                 >
+> 30 |             ))}
+     |               ^
+  31 |         </div>
+  32 |     )
+  33 | }
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+[00:39:34.023] Server  LOG      ✓ Compiled in 20ms
+[00:39:34.930] Browser LOG     /movies/1033462
+[00:39:34.930] Browser LOG     /movies/1033462
+[00:39:36.933] Browser LOG     /movies/1033462
+[00:39:36.933] Browser LOG     /movies/1033462
+[00:39:39.145] Browser LOG     /
+[00:39:39.146] Browser LOG     /
+[00:42:32.926] Server  LOG     I'm fetching
+[00:42:32.950] Server  LOG     I'm fetching
+[00:42:33.929] Browser LOG     /
+[00:42:33.929] Browser LOG     /
+[00:42:34.933] Browser LOG     /
+[00:42:34.933] Browser LOG     /
+[00:45:15.477] Server  LOG     I'm fetching
+[00:45:15.506] Server  LOG     I'm fetching
+[00:45:15.927] Browser LOG     /
+[00:45:15.927] Browser LOG     /
+[00:45:16.931] Browser LOG     /
+[00:45:16.931] Browser LOG     /
+[00:45:40.892] Server  LOG     I'm fetching
+[00:45:40.914] Server  LOG     I'm fetching
+[00:45:40.943] Server  LOG      ✓ Compiled in 0ms
+[00:45:42.932] Browser LOG     /
+[00:45:42.932] Browser LOG     /
+[00:45:42.932] Browser LOG     /
+[00:45:42.932] Browser LOG     /
+[00:46:58.657] Server  LOG     I'm fetching
+[00:46:58.679] Server  LOG     I'm fetching
+[00:46:58.927] Browser LOG     /
+[00:46:58.927] Browser LOG     /
+[00:46:59.933] Browser LOG     /
+[00:46:59.933] Browser LOG     /
+[00:47:17.750] Server  LOG     I'm fetching
+[00:47:17.773] Server  LOG     I'm fetching
+[00:47:17.927] Browser LOG     /
+[00:47:17.927] Browser LOG     /
+[00:47:18.929] Browser LOG     /
+[00:47:18.929] Browser LOG     /
+[00:49:29.927] Browser ERROR   ./Documents/learn-nextjs14/components/movie.tsx:3:1
+Ecmascript file had an error
+  1 | import Link from "next/link";
+  2 | import styles from "../styles/movie.module.css";
+> 3 | import { useRouter } from "next/router";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | interface IMovieProps {
+  6 |     title: string;
+
+You have a Server Component that imports next/router. Use next/navigation instead.
+Learn more: https://nextjs.org/docs/app/api-reference/functions/use-router
+
+Import trace:
+  Server Component:
+    ./Documents/learn-nextjs14/components/movie.tsx
+    ./Documents/learn-nextjs14/app/(home)/page.tsx
+[00:49:53.928] Browser ERROR   ./Documents/learn-nextjs14/components/movie.tsx:3:1
+Ecmascript file had an error
+  1 | import Link from "next/link";
+  2 | import styles from "../styles/movie.module.css";
+> 3 | import { useRouter } from "next/router";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | interface IMovieProps {
+  6 |     title: string;
+
+You have a Server Component that imports next/router. Use next/navigation instead.
+Learn more: https://nextjs.org/docs/app/api-reference/functions/use-router
+
+Import trace:
+  Server Component:
+    ./Documents/learn-nextjs14/components/movie.tsx
+    ./Documents/learn-nextjs14/app/(home)/page.tsx
+[00:49:54.928] Browser ERROR   ./Documents/learn-nextjs14/components/movie.tsx:3:1
+Ecmascript file had an error
+  1 | import Link from "next/link";
+  2 | import styles from "../styles/movie.module.css";
+> 3 | import { useRouter } from "next/router";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | interface IMovieProps {
+  6 |     title: string;
+
+You have a Server Component that imports next/router. Use next/navigation instead.
+Learn more: https://nextjs.org/docs/app/api-reference/functions/use-router
+
+Import trace:
+  Server Component:
+    ./Documents/learn-nextjs14/components/movie.tsx
+    ./Documents/learn-nextjs14/app/(home)/page.tsx
+[00:49:54.928] Browser ERROR   ./Documents/learn-nextjs14/components/movie.tsx:3:1
+Ecmascript file had an error
+  1 | import Link from "next/link";
+  2 | import styles from "../styles/movie.module.css";
+> 3 | import { useRouter } from "next/router";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | interface IMovieProps {
+  6 |     title: string;
+
+You have a Server Component that imports next/router. Use next/navigation instead.
+Learn more: https://nextjs.org/docs/app/api-reference/functions/use-router
+
+Import trace:
+  Server Component:
+    ./Documents/learn-nextjs14/components/movie.tsx
+    ./Documents/learn-nextjs14/app/(home)/page.tsx
+[00:50:17.927] Browser ERROR   ./Documents/learn-nextjs14/components/movie.tsx:3:10
+Ecmascript file had an error
+  1 | import Link from "next/link";
+  2 | import styles from "../styles/movie.module.css";
+> 3 | import { useRouter } from "next/navigation";
+    |          ^^^^^^^^^
+  4 |
+  5 | interface IMovieProps {
+  6 |     title: string;
+
+You're importing a component that needs `useRouter`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import trace:
+  Server Component:
+    ./Documents/learn-nextjs14/components/movie.tsx
+    ./Documents/learn-nextjs14/app/(home)/page.tsx
+[00:50:17.927] Browser ERROR   ./Documents/learn-nextjs14/components/movie.tsx:3:10
+Ecmascript file had an error
+  1 | import Link from "next/link";
+  2 | import styles from "../styles/movie.module.css";
+> 3 | import { useRouter } from "next/navigation";
+    |          ^^^^^^^^^
+  4 |
+  5 | interface IMovieProps {
+  6 |     title: string;
+
+You're importing a component that needs `useRouter`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import trace:
+  Server Component:
+    ./Documents/learn-nextjs14/components/movie.tsx
+    ./Documents/learn-nextjs14/app/(home)/page.tsx
+[00:50:18.929] Browser ERROR   ./Documents/learn-nextjs14/components/movie.tsx:3:10
+Ecmascript file had an error
+  1 | import Link from "next/link";
+  2 | import styles from "../styles/movie.module.css";
+> 3 | import { useRouter } from "next/navigation";
+    |          ^^^^^^^^^
+  4 |
+  5 | interface IMovieProps {
+  6 |     title: string;
+
+You're importing a component that needs `useRouter`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import trace:
+  Server Component:
+    ./Documents/learn-nextjs14/components/movie.tsx
+    ./Documents/learn-nextjs14/app/(home)/page.tsx
+[00:50:18.929] Browser ERROR   ./Documents/learn-nextjs14/components/movie.tsx:3:10
+Ecmascript file had an error
+  1 | import Link from "next/link";
+  2 | import styles from "../styles/movie.module.css";
+> 3 | import { useRouter } from "next/navigation";
+    |          ^^^^^^^^^
+  4 |
+  5 | interface IMovieProps {
+  6 |     title: string;
+
+You're importing a component that needs `useRouter`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import trace:
+  Server Component:
+    ./Documents/learn-nextjs14/components/movie.tsx
+    ./Documents/learn-nextjs14/app/(home)/page.tsx
+[00:50:32.828] Server  ERROR    ⨯ ./Documents/learn-nextjs14/components/movie.tsx:3:10
+Ecmascript file had an error
+  1 | import Link from "next/link";
+  2 | import styles from "../styles/movie.module.css";
+> 3 | import { useRouter } from "next/navigation";
+    |          ^^^^^^^^^
+  4 |
+  5 | interface IMovieProps {
+  6 |     title: string;
+
+You're importing a component that needs `useRouter`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+
+
+Import trace:
+  Server Component:
+    ./Documents/learn-nextjs14/components/movie.tsx
+    ./Documents/learn-nextjs14/app/(home)/page.tsx
+
+
+[00:50:32.948] Browser ERROR   ./Documents/learn-nextjs14/components/movie.tsx:3:10
+Ecmascript file had an error
+  1 | import Link from "next/link";
+  2 | import styles from "../styles/movie.module.css";
+> 3 | import { useRouter } from "next/navigation";
+    |          ^^^^^^^^^
+  4 |
+  5 | interface IMovieProps {
+  6 |     title: string;
+
+You're importing a component that needs `useRouter`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import trace:
+  Server Component:
+    ./Documents/learn-nextjs14/components/movie.tsx
+    ./Documents/learn-nextjs14/app/(home)/page.tsx
+[00:50:33.311] Browser ERROR   uncaughtError: Error: ./Documents/learn-nextjs14/components/movie.tsx:3:10
+Ecmascript file had an error
+  1 | import Link from "next/link";
+  2 | import styles from "../styles/movie.module.css";
+> 3 | import { useRouter } from "next/navigation";
+    |          ^^^^^^^^^
+  4 |
+  5 | interface IMovieProps {
+  6 |     title: string;
+
+You're importing a component that needs `useRouter`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+
+
+Import trace:
+  Server Component:
+    ./Documents/learn-nextjs14/components/movie.tsx
+    ./Documents/learn-nextjs14/app/(home)/page.tsx
+
+
+[00:50:33.464] Browser ERROR   ./Documents/learn-nextjs14/components/movie.tsx:3:10
+Ecmascript file had an error
+  1 | import Link from "next/link";
+  2 | import styles from "../styles/movie.module.css";
+> 3 | import { useRouter } from "next/navigation";
+    |          ^^^^^^^^^
+  4 |
+  5 | interface IMovieProps {
+  6 |     title: string;
+
+You're importing a component that needs `useRouter`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import trace:
+  Server Component:
+    ./Documents/learn-nextjs14/components/movie.tsx
+    ./Documents/learn-nextjs14/app/(home)/page.tsx
+[00:50:33.464] Browser ERROR   ./Documents/learn-nextjs14/components/movie.tsx:3:10
+Ecmascript file had an error
+  1 | import Link from "next/link";
+  2 | import styles from "../styles/movie.module.css";
+> 3 | import { useRouter } from "next/navigation";
+    |          ^^^^^^^^^
+  4 |
+  5 | interface IMovieProps {
+  6 |     title: string;
+
+You're importing a component that needs `useRouter`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import trace:
+  Server Component:
+    ./Documents/learn-nextjs14/components/movie.tsx
+    ./Documents/learn-nextjs14/app/(home)/page.tsx
+    ./Documents/learn-nextjs14/components/movie-videos.tsx
+    ./Documents/learn-nextjs14/app/(movies)/movies/[id]/page.tsx
+[00:50:33.464] Browser ERROR   ./Documents/learn-nextjs14/components/movie.tsx:3:10
+Ecmascript file had an error
+  1 | import Link from "next/link";
+  2 | import styles from "../styles/movie.module.css";
+> 3 | import { useRouter } from "next/navigation";
+    |          ^^^^^^^^^
+  4 |
+  5 | interface IMovieProps {
+  6 |     title: string;
+
+You're importing a component that needs `useRouter`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import trace:
+  Server Component:
+    ./Documents/learn-nextjs14/components/movie.tsx
+    ./Documents/learn-nextjs14/app/(home)/page.tsx
+[00:50:45.929] Browser ERROR   ./Documents/learn-nextjs14/components/movie.tsx:3:10
+Ecmascript file had an error
+  1 | import Link from "next/link";
+  2 | import styles from "../styles/movie.module.css";
+> 3 | import { useRouter } from "next/navigation";
+    |          ^^^^^^^^^
+  4 |
+  5 | interface IMovieProps {
+  6 |     title: string;
+
+You're importing a component that needs `useRouter`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import trace:
+  Server Component:
+    ./Documents/learn-nextjs14/components/movie.tsx
+    ./Documents/learn-nextjs14/app/(home)/page.tsx
+[00:50:46.928] Browser ERROR   ./Documents/learn-nextjs14/components/movie.tsx:3:10
+Ecmascript file had an error
+  1 | import Link from "next/link";
+  2 | import styles from "../styles/movie.module.css";
+> 3 | import { useRouter } from "next/navigation";
+    |          ^^^^^^^^^
+  4 |
+  5 | interface IMovieProps {
+  6 |     title: string;
+
+You're importing a component that needs `useRouter`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import trace:
+  Server Component:
+    ./Documents/learn-nextjs14/components/movie.tsx
+    ./Documents/learn-nextjs14/app/(home)/page.tsx
+[00:50:46.928] Browser ERROR   ./Documents/learn-nextjs14/components/movie.tsx:3:10
+Ecmascript file had an error
+  1 | import Link from "next/link";
+  2 | import styles from "../styles/movie.module.css";
+> 3 | import { useRouter } from "next/navigation";
+    |          ^^^^^^^^^
+  4 |
+  5 | interface IMovieProps {
+  6 |     title: string;
+
+You're importing a component that needs `useRouter`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import trace:
+  Server Component:
+    ./Documents/learn-nextjs14/components/movie.tsx
+    ./Documents/learn-nextjs14/app/(home)/page.tsx
+[00:51:10.271] Server  LOG     I'm fetching
+[00:51:10.300] Server  LOG     /
+[00:51:10.398] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:51:10.928] Browser LOG     /
+[00:51:10.928] Browser LOG     /
+[00:51:13.108] Server  LOG     I'm fetching
+[00:51:13.123] Server  LOG     /
+[00:51:13.190] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:51:13.190] Browser LOG     /
+[00:51:13.190] Browser LOG     /
+[00:51:14.850] Browser LOG     /movies/1419406
+[00:51:14.850] Browser LOG     /movies/1419406
+[00:51:14.850] Browser LOG     /movies/1419406
+[00:51:14.850] Browser LOG     /movies/1419406
+[00:51:17.939] Browser LOG     /
+[00:51:17.939] Browser LOG     /
+[00:51:47.499] Server  LOG      ✓ Compiled in 9ms
+[00:51:47.927] Browser LOG     /
+[00:51:47.927] Browser LOG     /
+[00:52:12.030] Server  LOG      ✓ Compiled in 8ms
+[00:52:24.532] Server  LOG     I'm fetching
+[00:52:24.558] Server  LOG     I'm fetching
+[00:52:24.928] Browser LOG     /
+[00:52:24.928] Browser LOG     /
+[00:52:25.932] Browser LOG     /
+[00:52:25.932] Browser LOG     /
+[00:52:31.020] Browser LOG     /about-us
+[00:52:31.020] Browser LOG     /about-us
+[00:52:33.292] Server  LOG     I'm fetching
+[00:52:33.411] Browser LOG     /
+[00:52:33.411] Browser LOG     /
+[00:52:34.647] Browser LOG     /movies/1033462
+[00:52:34.647] Browser LOG     /movies/1033462
+[00:52:40.895] Server  LOG     I'm fetching
+[00:52:41.012] Browser LOG     /
+[00:52:41.012] Browser LOG     /
