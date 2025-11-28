@@ -2,6 +2,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
+import styles from "../styles/navigation.module.css"
 /*
 렌더링이란?
 Next.js가 리액트 컴포넌트를 브라우저가 이해할 수 있는 html로 변환하는 작업
@@ -33,8 +34,8 @@ export default function Navigation() {
     const [count, setCount] = useState(0);
     console.log(path);
     return (
-        <nav>
-            <ul>
+        <nav className={styles.nav}>
+            <ul className={styles.list}>
                 <li>
                     <Link href="/">Home</Link>{path === "/" ? " ✅" : ""}
                 </li>

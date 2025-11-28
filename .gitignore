@@ -1,2 +1,6 @@
 node_modules
 .next
+.next/dev/prerender-manifest.json
+.next/dev/trace
+.next/dev/logs/next-development.log
+.next/dev/server/app-paths-manifest.json

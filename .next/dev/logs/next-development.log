@@ -1,113 +1,48 @@
-[00:00:00.398] Server  LOG      ✓ Ready in 299ms
-[00:00:01.530] Server  LOG     I'm fetching
-[00:00:01.575] Server  LOG     /
-[00:00:01.645] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:01.646] Browser LOG     /
-[00:00:01.646] Browser LOG     /
-[00:00:04.919] Server  LOG     I'm fetching
-[00:00:04.931] Server  LOG     /
-[00:00:04.991] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:04.991] Browser LOG     /
-[00:00:04.991] Browser LOG     /
-[00:00:07.779] Browser LOG     /movies/1419406
-[00:00:07.780] Browser LOG     /movies/1419406
-[00:00:11.467] Server  LOG     I'm fetching
-[00:00:11.584] Browser LOG     /
-[00:00:11.584] Browser LOG     /
-[00:00:14.043] Browser LOG     /movies/1419406
-[00:00:14.043] Browser LOG     /movies/1419406
-[00:00:15.034] Server  LOG     I'm fetching
-[00:00:15.149] Browser LOG     /
-[00:00:15.149] Browser LOG     /
-[00:00:16.138] Server  LOG     I'm fetching
-[00:00:16.148] Server  LOG     /
-[00:00:16.226] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:16.226] Browser LOG     /
-[00:00:16.226] Browser LOG     /
-[00:00:18.607] Server  LOG     I'm fetching
-[00:00:18.720] Browser LOG     /
-[00:00:18.720] Browser LOG     /
-[00:00:19.577] Browser LOG     /about-us
-[00:00:19.577] Browser LOG     /about-us
-[00:00:21.348] Server  LOG     I'm fetching
-[00:00:21.465] Browser LOG     /
-[00:00:21.465] Browser LOG     /
-[00:00:24.389] Browser LOG     /movies/1033462
-[00:00:24.389] Browser LOG     /movies/1033462
-[00:00:26.562] Server  LOG     I'm fetching
-[00:00:26.677] Browser LOG     /
-[00:00:26.677] Browser LOG     /
-[00:00:34.591] Browser LOG     /movies/1033462
-[00:00:34.591] Browser LOG     /movies/1033462
-[00:00:35.620] Server  LOG     I'm fetching
-[00:00:35.735] Browser LOG     /
-[00:00:35.735] Browser LOG     /
-[00:10:59.421] Browser ERROR   ./Documents/learn-nextjs14/app/(movies)/movies/[id]/error.tsx
-Ecmascript file had an error
-Documents/learn-nextjs14/app/(movies)/movies/[id]/error.tsx must be a Client Component. Add the "use client" directive the top of the file to resolve this issue.
-Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
-[00:11:42.420] Browser ERROR   ./Documents/learn-nextjs14/app/(movies)/movies/[id]/error.tsx:1:1
-Ecmascript file had an error
-> 1 | export default function Error() {
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-> 2 |     return <h1> Something broke...</h1>
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-> 3 | }
-    | ^^
-
-Documents/learn-nextjs14/app/(movies)/movies/[id]/error.tsx must be a Client Component. Add the "use client" directive the top of the file to resolve this issue.
-Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
-[00:11:46.421] Browser ERROR   ./Documents/learn-nextjs14/app/(movies)/movies/[id]/error.tsx:1:1
-Ecmascript file had an error
-> 1 | export default function Error() {
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-> 2 |     return <h1>Something broke...</h1>
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-> 3 | }
-    | ^^
-
-Documents/learn-nextjs14/app/(movies)/movies/[id]/error.tsx must be a Client Component. Add the "use client" directive the top of the file to resolve this issue.
-Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
-[00:11:47.420] Browser ERROR   ./Documents/learn-nextjs14/app/(movies)/movies/[id]/error.tsx:1:1
-Ecmascript file had an error
-> 1 | export default function Error() {
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-> 2 |     return <h1>Something broke...</h1>
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-> 3 | }
-    | ^^
-
-Documents/learn-nextjs14/app/(movies)/movies/[id]/error.tsx must be a Client Component. Add the "use client" directive the top of the file to resolve this issue.
-Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
-[00:11:47.421] Browser ERROR   ./Documents/learn-nextjs14/app/(movies)/movies/[id]/error.tsx:1:1
-Ecmascript file had an error
-> 1 | export default function Error() {
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-> 2 |     return <h1>Something broke...</h1>
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-> 3 | }
-    | ^^
-
-Documents/learn-nextjs14/app/(movies)/movies/[id]/error.tsx must be a Client Component. Add the "use client" directive the top of the file to resolve this issue.
-Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
-[00:12:17.044] Server  LOG     I'm fetching
-[00:12:17.072] Server  LOG      ✓ Compiled in 22ms
-[00:12:17.421] Browser LOG     /
-[00:12:17.421] Browser LOG     /
-[00:12:18.422] Browser LOG     /
-[00:12:18.422] Browser LOG     /
-[00:13:04.067] Server  LOG     I'm fetching
-[00:13:04.093] Server  LOG      ✓ Compiled in 11ms
-[00:13:04.421] Browser LOG     /
-[00:13:04.421] Browser LOG     /
-[00:13:05.423] Browser LOG     /
-[00:13:05.424] Browser LOG     /
-[00:13:07.000] Browser LOG     /movies/1419406
-[00:13:07.000] Browser LOG     /movies/1419406
-[00:13:08.911] Server  ERROR    ⨯ Error: 오류 발생!
-[00:15:06.420] Browser LOG     /movies/1419406
-[00:15:06.420] Browser LOG     /movies/1419406
-[00:15:09.643] Server  LOG     /movies/1419406
-[00:15:09.729] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:15:09.833] Browser LOG     /movies/1419406
-[00:15:09.833] Browser LOG     /movies/1419406
+[00:00:00.652] Server  LOG      ✓ Ready in 488ms
+[00:00:06.505] Server  LOG     I'm fetching
+[00:00:06.552] Server  LOG     /
+[00:00:06.646] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:06.750] Browser LOG     /
+[00:00:06.750] Browser LOG     /
+[00:06:36.753] Server  LOG     I'm fetching
+[00:06:36.775] Server  LOG     I'm fetching
+[00:06:36.787] Server  LOG     /
+[00:06:36.861] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:06:37.927] Browser LOG     /
+[00:06:37.927] Browser LOG     /
+[00:08:24.463] Server  LOG      ✓ Compiled in 3ms
+[00:08:44.560] Server  LOG      ✓ Compiled in 4ms
+[00:09:45.275] Server  LOG      ✓ Compiled in 11ms
+[00:10:28.464] Server  LOG      ✓ Compiled in 5ms
+[00:10:31.452] Server  LOG     I'm fetching
+[00:10:31.466] Server  LOG     /
+[00:10:31.533] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:10:31.533] Browser LOG     /
+[00:10:31.533] Browser LOG     /
+[00:15:01.115] Server  LOG      ✓ Compiled in 5ms
+[00:15:01.928] Browser LOG     /
+[00:15:01.928] Browser LOG     /
+[00:15:43.092] Server  LOG     I'm fetching
+[00:15:43.103] Server  LOG      ✓ Compiled in 16ms
+[00:15:43.119] Server  LOG     /
+[00:15:43.184] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:15:43.928] Browser LOG     /
+[00:15:43.928] Browser LOG     /
+[00:16:34.153] Server  LOG      ✓ Compiled in 6ms
+[00:16:36.957] Server  LOG     I'm fetching
+[00:16:36.971] Server  LOG     /
+[00:16:37.034] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:16:37.034] Browser LOG     /
+[00:16:37.034] Browser LOG     /
+[00:18:42.871] Server  LOG      ✓ Compiled in 6ms
+[00:19:30.046] Server  LOG      ✓ Compiled in 5ms
+[00:19:30.928] Browser LOG     /
+[00:19:30.928] Browser LOG     /
+[00:19:53.366] Server  LOG      ✓ Compiled in 6ms
+[00:19:53.927] Browser LOG     /
+[00:19:53.928] Browser LOG     /
+[00:19:58.040] Server  LOG     I'm fetching
+[00:19:58.071] Server  LOG     /
+[00:19:58.130] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:19:58.130] Browser LOG     /
+[00:19:58.130] Browser LOG     /
